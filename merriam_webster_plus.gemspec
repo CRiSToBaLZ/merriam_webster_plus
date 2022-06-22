@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.executables   = ["mwp"]
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "bundler", "~> 2.2"
+  spec.add_dependency "bundler", "~> 2.3"
   spec.add_dependency "httparty"
   spec.add_dependency "json"
   spec.add_dependency "minitest"

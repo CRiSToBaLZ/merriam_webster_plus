@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     merriam_webster_plus (0.1.0)
-      bundler (~> 2.2)
+      bundler (~> 2.3)
       httparty
       json
       minitest
@@ -65,4 +65,4 @@ DEPENDENCIES
   merriam_webster_plus!
 
 BUNDLED WITH
-   2.2.3
+   2.3.16
