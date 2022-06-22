@@ -1,0 +1,141 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/pardoned?key=<COLLEGIATE_THESAURUS_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1270'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"pardoned","uuid":"2ac7ae9c-5b1c-4f5a-9ff5-89ed65cd08ce","src":"coll_thes","section":"alpha","stems":["pardoned"],"syns":[["forgave"],["blinked
+        (at)","brushed (aside or off)","condoned","discounted","disregarded","excused","forgave","glossed
+        (over)","glozed (over)","ignored","overlooked","overpassed","papered over","passed
+        over","remitted","shrugged off","whitewashed","winked (at)"]],"ants":[["resented"]],"offensive":false},"hwi":{"hw":"pardoned"},"fl":"verb","sls":["past
+        tense of {d_link|pardon|pardon}"],"def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","to
+        cease to have feelings of anger or bitterness toward "],["vis",[{"t":"he eventually
+        {it}pardoned{\/it} his sister after she apologized"}]]],"syn_list":[[{"wd":"forgave"}]],"rel_list":[[{"wd":"absolved"},{"wd":"acquitted"},{"wd":"cleared"},{"wd":"exculpated"},{"wd":"exonerated"},{"wd":"vindicated"}],[{"wd":"remitted"},{"wd":"shrived","wvrs":[{"wvl":"or","wva":"shrove"}]}],[{"wd":"condoned"},{"wd":"disregarded"},{"wd":"excused"},{"wd":"ignored"},{"wd":"passed
+        over"},{"wd":"shrugged off"}],[{"wd":"discharged"},{"wd":"liberated"},{"wd":"redeemed"},{"wd":"released"},{"wd":"unburdened"}]],"near_list":[[{"wd":"abhorred"},{"wd":"abominated"},{"wd":"despised"},{"wd":"detested"},{"wd":"disliked"},{"wd":"execrated"},{"wd":"hated"},{"wd":"loathed"}],[{"wd":"avenged"},{"wd":"redressed"},{"wd":"requited"},{"wd":"retaliated"},{"wd":"revenged"}],[{"wd":"disciplined"},{"wd":"penalized"},{"wd":"punished"}]],"ant_list":[[{"wd":"resented"}]]}]],[["sense",{"sn":"2","dt":[["text","to
+        dismiss as of little importance "],["vis",[{"t":"I\u0027m willing to {it}pardon{\/it}
+        a little sloppiness of dress in such a kind and loving person"}]]],"syn_list":[[{"wd":"blinked
+        (at)"},{"wd":"brushed (aside or off)"},{"wd":"condoned"},{"wd":"discounted"},{"wd":"disregarded"},{"wd":"excused"},{"wd":"forgave"},{"wd":"glossed
+        (over)"},{"wd":"glozed (over)"},{"wd":"ignored"},{"wd":"overlooked"},{"wd":"overpassed"},{"wd":"papered
+        over"},{"wd":"passed over"},{"wd":"remitted"},{"wd":"shrugged off"},{"wd":"whitewashed"},{"wd":"winked
+        (at)"}]],"rel_list":[[{"wd":"explained"},{"wd":"justified"},{"wd":"rationalized"}],[{"wd":"absolved"},{"wd":"acquitted"},{"wd":"cleared"},{"wd":"exculpated"},{"wd":"exonerated"},{"wd":"vindicated"}],[{"wd":"waived"},{"wd":"waved
+        (aside or off)"}]],"phrase_list":[[{"wd":"closed one\u0027s eyes to"},{"wd":"forgave
+        and forgot"}]],"near_list":[[{"wd":"heeded"},{"wd":"marked"},{"wd":"minded"},{"wd":"noted"},{"wd":"objected
+        (to)"}]]}]]]}],"shortdef":["to cease to have feelings of anger or bitterness
+        toward","to dismiss as of little importance"]},{"meta":{"id":"pardon","uuid":"a55237df-c637-48d1-b7ab-81eddc3dcb55","src":"coll_thes","section":"alpha","target":{"tuuid":"7e15693b-2866-457f-a3bb-d200dd996e5c","tsrc":"collegiate"},"stems":["pardon","pardoned","pardoning","pardons"],"syns":[["forgive"],["blink
+        (at)","brush (aside or off)","condone","discount","disregard","excuse","forgive","gloss
+        (over)","gloze (over)","ignore","overlook","overpass","paper over","pass over","remit","shrug
+        off","whitewash","wink (at)"]],"ants":[["resent"]],"offensive":false},"hwi":{"hw":"pardon"},"fl":"verb","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","to
+        cease to have feelings of anger or bitterness toward "],["vis",[{"t":"he eventually
+        {it}pardoned{\/it} his sister after she apologized"}]]],"syn_list":[[{"wd":"forgive"}]],"rel_list":[[{"wd":"absolve"},{"wd":"acquit"},{"wd":"clear"},{"wd":"exculpate"},{"wd":"exonerate"},{"wd":"vindicate"}],[{"wd":"remit"},{"wd":"shrive"}],[{"wd":"condone"},{"wd":"disregard"},{"wd":"excuse"},{"wd":"ignore"},{"wd":"pass
+        over"},{"wd":"shrug off"}],[{"wd":"discharge"},{"wd":"liberate"},{"wd":"redeem"},{"wd":"release"},{"wd":"unburden"}]],"near_list":[[{"wd":"abhor"},{"wd":"abominate"},{"wd":"despise"},{"wd":"detest"},{"wd":"dislike"},{"wd":"execrate"},{"wd":"hate"},{"wd":"loathe"}],[{"wd":"avenge"},{"wd":"redress"},{"wd":"requite"},{"wd":"retaliate"},{"wd":"revenge"}],[{"wd":"discipline"},{"wd":"penalize"},{"wd":"punish"}]],"ant_list":[[{"wd":"resent"}]]}]],[["sense",{"sn":"2","dt":[["text","to
+        dismiss as of little importance "],["vis",[{"t":"I\u0027m willing to {it}pardon{\/it}
+        a little sloppiness of dress in such a kind and loving person"}]]],"syn_list":[[{"wd":"blink
+        (at)"},{"wd":"brush (aside or off)"},{"wd":"condone"},{"wd":"discount"},{"wd":"disregard"},{"wd":"excuse"},{"wd":"forgive"},{"wd":"gloss
+        (over)"},{"wd":"gloze (over)"},{"wd":"ignore"},{"wd":"overlook"},{"wd":"overpass"},{"wd":"paper
+        over"},{"wd":"pass over"},{"wd":"remit"},{"wd":"shrug off"},{"wd":"whitewash"},{"wd":"wink
+        (at)"}]],"rel_list":[[{"wd":"explain"},{"wd":"justify"},{"wd":"rationalize"}],[{"wd":"absolve"},{"wd":"acquit"},{"wd":"clear"},{"wd":"exculpate"},{"wd":"exonerate"},{"wd":"vindicate"}],[{"wd":"waive"},{"wd":"wave
+        (aside or off)"}]],"phrase_list":[[{"wd":"close one\u0027s eyes to"},{"wd":"forgive
+        and forget"}]],"near_list":[[{"wd":"heed"},{"wd":"mark"},{"wd":"mind"},{"wd":"note"},{"wd":"object
+        (to)"}]]}]]]}],"shortdef":["to cease to have feelings of anger or bitterness
+        toward","to dismiss as of little importance"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:58 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/collegiate/json/pardoned?key=<COLLEGIATE_DICTIONARY_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1085'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"pardon:2","uuid":"7e15693b-2866-457f-a3bb-d200dd996e5c","sort":"160068700","src":"collegiate","section":"alpha","stems":["pardon","pardoned","pardoning","pardons"],"offensive":false},"hom":2,"hwi":{"hw":"pardon"},"fl":"verb","ins":[{"if":"par*doned"},{"if":"par*don*ing","prs":[{"mw":"\u02c8p\u00e4rd-ni\u014b","sound":{"audio":"pardon02","ref":"c","stat":"1"}},{"mw":"\u02c8p\u00e4r-d\u1d4an-i\u014b"}]}],"def":[{"vd":"transitive
+        verb","sseq":[[["sense",{"sn":"1 a","dt":[["text","{bc}to absolve from the
+        consequences of a fault or crime"]]}],["sense",{"sn":"b","dt":[["text","{bc}to
+        allow (an offense) to pass without punishment {bc}{sx|forgive||}"]]}],["sense",{"sn":"c","dt":[["text","{bc}to
+        relieve of a penalty improperly assessed"]]}]],[["sense",{"sn":"2","dt":[["text","{bc}{sx|tolerate||}"]]}]]]}],"syns":[{"pl":"synonyms","pt":[["text","{sc}excuse{\/sc}
+        {sc}condone{\/sc} {sc}pardon{\/sc} {sc}forgive{\/sc} mean to exact neither
+        punishment nor redress. {sc}excuse{\/sc} may refer to specific acts especially
+        in social or conventional situations or the person responsible for these.
+        "],["vis",[{"t":"{it}excuse{\/it} an interruption"},{"t":"{it}excused{\/it}
+        them for interrupting"}]],["text"," Often the term implies extenuating circumstances.
+        "],["vis",[{"t":"injustice {it}excuses{\/it} strong responses"}]],["text","
+        {sc}condone{\/sc} implies that one overlooks without censure behavior (such
+        as dishonesty or violence) that involves a serious breach of a moral, ethical,
+        or legal code, and the term may refer to the behavior or to the agent responsible
+        for it. "],["vis",[{"t":"a society that {it}condones{\/it} alcohol but not
+        narcotics"}]],["text"," {sc}pardon{\/sc} implies that one remits a penalty
+        due for an admitted or established offense. "],["vis",[{"t":"{it}pardon{\/it}
+        a criminal"}]],["text"," {sc}forgive{\/sc} implies that one gives up all claim
+        to requital and to resentment or vengeful feelings. "],["vis",[{"t":"could
+        not {it}forgive{\/it} their rudeness"}]]]}],"et":[["text","Middle English,
+        from Anglo-French {it}parduner{\/it}, from Late Latin {it}perdonare{\/it}
+        to grant freely, from Latin {it}per-{\/it} thoroughly + {it}donare{\/it} to
+        give {ma}{mat|parboil|}, {mat|donation|}{\/ma}"]],"date":"15th century{ds||1|a|}","shortdef":["to
+        absolve from the consequences of a fault or crime","to allow (an offense)
+        to pass without punishment : forgive","to relieve of a penalty improperly
+        assessed"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:58 GMT
+recorded_with: VCR 6.1.0

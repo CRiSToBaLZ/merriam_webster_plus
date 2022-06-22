@@ -1,0 +1,132 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/aut_caesar_aut_nihil/batch?key=<COLLEGIATE_DICTIONARY_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:59 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Length:
+      - '7382'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <script defer src=\"/js/jquery-3.3.1.min.js\"></script>\n
+        \   <script defer src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\"
+        integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\"
+        crossorigin=\"anonymous\"></script>\n    <script defer src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\"
+        integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\"
+        crossorigin=\"anonymous\"></script>\n    <script defer src=\"/js/header.js\"></script>\n
+        \   \n            <!-- Global site tag (gtag.js) - Google Analytics -->\n
+        \       <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-296234-30\"></script>\n
+        \       <script>\n            window.dataLayer = window.dataLayer || [];\n
+        \           function gtag(){dataLayer.push(arguments);}\n            gtag('js',
+        new Date());\n            gtag('config', 'UA-296234-30');\n        </script>\n
+        \   \n    <meta name=\"robots\" content=\"noindex,&#x20;follow\">\n<meta http-equiv=\"Content-Type\"
+        content=\"text&#x2F;html&#x3B;&#x20;charset&#x3D;UTF-8\">\n<meta name=\"viewport\"
+        content=\"width&#x3D;device-width,&#x20;initial-scale&#x3D;1\">\n<meta name=\"robots\"
+        content=\"Index,&#x20;follow\">\n<meta name=\"theme-color\" content=\"&#x23;2D5F7C\">
+        \   <title>Merriam-Webster Developer Center Page Not Found</title>  \n    <link
+        rel=\"shortcut icon\" href=\"/favicon.png\">\n\n    <link rel=\"stylesheet\"
+        href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Playfair+Display:400\"
+        media=\"print\" onload=\"this.media='all'; this.onload=null;\">\n    <link
+        rel=\"stylesheet\" href=\"/css/app.min.css\" media=\"print\" onload=\"this.media='all';
+        this.onload=null;\">\n\n</head>\n\n<body> \n        <!-- Start header -->\n
+        \   <nav class=\"navbar navbar-fixed navbar-expand-lg navbar-dark\">\n        <div
+        class=\"container\">\n            <div class=\"row align-items-center\">\n
+        \               <div id=\"button-wrapper\">\n                    <button id=\"menuIcon\"
+        class=\"navbar-toggler collapsed\" type=\"button\" data-toggle=\"collapse\"
+        data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\"
+        aria-label=\"Toggle navigation\">\n                        <span></span>\n
+        \                       <span></span>\n                        <span></span>\n
+        \                       <span></span>\n                    </button>\n                </div>\n
+        \               <div id=\"mw-logo\">\n                    <a class=\"navbar-brand\"
+        href=\"/\">\n                        <!-- Load specific images based on the
+        screen size -->\n                        <picture>\n                            <source
+        media=\"(min-width: 1200px)\" srcset=\"/images/MWLogo_120x120.png, /images/MWLogo_120x120_2x.png
+        2x\">\n                            <source media=\"(min-width: 992px)\" srcset=\"/images/MWLogo_75x75.png,
+        /images/MWLogo_75x75_2x.png 2x\">\n                            <img src=\"/images/MWLogo.png\"
+        srcset=\"/images/MWLogo_58x58.png, /images/MWLogo_58x58_2x.png 2x\" alt=\"Merriam-Webster
+        Logo\">\n                        </picture>\n                    </a>\n                </div>\n
+        \               <div id=\"dev-center\">\n                    <a href=\"/\">Developer
+        Center</a>\n                </div>\n\n                <div class=\"collapse
+        navbar-collapse\" id=\"navbarNav\">\n                    <!-- Need empty div
+        with set height to avoid over-scrolling -->\n                    <div id=\"open-menu-logo\">\n
+        \                   </div>\n                    <ul class=\"navbar-nav\">\n
+        \                                                       <li class=\"nav-item
+        sub-nav d-lg-none d-xl-none\">\n                                <a class=\"nav-link\"
+        href=\"/register/index\">Register</a>\n                            </li>\n
+        \                           <li class=\"nav-item sub-nav d-lg-none d-xl-none\">\n
+        \                               <a class=\"nav-link\" href=\"/sign-in\">Sign
+        in</a>\n                            </li>\n                                                <li
+        class=\"nav-item main-nav\">\n                            <a class=\"nav-link\"
+        href=\"/\">Home</a>\n                        </li>\n                        <li
+        class=\"nav-item main-nav\">\n                            <a class=\"nav-link\"
+        href=\"/products/index\">APIs</a>\n                        </li>\n                        <li
+        class=\"nav-item main-nav\">\n                            <a class=\"nav-link\"
+        href=\"/products/json\">Documentation</a>\n                        </li>\n
+        \                       <li class=\"nav-item main-nav\">\n                            <a
+        class=\"nav-link\" href=\"/info/frequently-asked-questions\">FAQ</a>\n                        </li>\n
+        \                       <li class=\"nav-item main-nav\">\n                            <a
+        class=\"nav-link\" href=\"/info/contact\">Contact Us</a>\n                        </li>\n
+        \                   </ul>\n                </div>\n            </div>\n        </div>\n
+        \   </nav>\n    <!-- End header -->\n    \n    <!-- Start sub nav -->\n    <div
+        id=\"sub-nav\" class=\"container-fluid d-none d-lg-block d-xl-block\">\n                       Welcome!
+        Please <a href=\"/register/index\">register</a> or <a href=\"/sign-in\">sign
+        in</a>\n            </div>\n    <!-- End sub nav -->\n    \n    <!-- Wrap
+        the body and footer in a div to disable scrolling when mobile nav is open
+        -->\n    <div id=\"body-footer-wrapper\">\n        <!-- Inject specific page
+        content -->\n        <div id=\"page-wrapper\" class=\"container\">\n            <div
+        class=\"row\">\n                <div class=\"col\"></div>\n                <div
+        id=\"page-content\" class=\"col-xs-12 col-lg-8\">\n                    \n<span
+        class=\"h1-underscore\"></span>\n<h1>A 404 error occurred</h1>\n<h2>Page not
+        found.</h2>\n\n<p>The requested URL could not be matched by routing.</p>\n\n<!--
+        \n    <h3>No Exception available</h3>\n     -->                </div>\n                <div
+        class=\"col\"></div>\n            </div>\n        </div>\n\n\n        <!--
+        Start footer -->\n        <footer id=\"footer\" class=\"container-fluid\">\n
+        \           <div class=\"row d-flex justify-content-md-start justify-content-lg-center\">\n
+        \               <div class=\"col-xs-12 col-lg-auto\">\n                    <a
+        href=\"/info/privacy-policy\">Privacy Policy</a>\n                </div>\n
+        \               <div class=\"col-xs-12 col-lg-auto\">\n                    <a
+        href=\"/info/branding-guidelines\">Brand Guidelines</a>\n                </div>\n
+        \               <div class=\"col-xs-12 col-lg-auto\">\n                    <a
+        href=\"/info/terms-of-service\">Terms of Service</a>\n                </div>\n
+        \               <div class=\"col-xs-12 col-lg-auto\">\n                    <a
+        href=\"/info/contact\">Contact Us</a></li>\n                </div>\n            </div>\n
+        \           <div class=\"row middle-row d-flex justify-content-md-start justify-content-lg-center\">\n
+        \               <div class=\"col-xs-12 col-lg-auto\">\n                    <a
+        href=\"https://www.merriam-webster.com\">Merriam-Webster Online</a>\n                </div>\n
+        \               <div class=\"col-xs-12 col-lg-auto\">\n                    <a
+        href=\"http://www.learnersdictionary.com\">Learner's Dictionary</a>\n                </div>\n
+        \           </div>\n            <div class=\"row d-flex justify-content-sm-center
+        copyright\">\n                <div class=\"col\">\n                    <a
+        href=\"/info/copyright\">&copy; 2022 Merriam-Webster, Incorporated</a>\n                </div>\n
+        \           </div>\n        </footer>\n        <!-- End footer -->\n    </div>\n
+        \   <!-- End body-footer-wrapper -->\n</body>\n</html>"
+  recorded_at: Tue, 21 Jun 2022 23:24:59 GMT
+recorded_with: VCR 6.1.0

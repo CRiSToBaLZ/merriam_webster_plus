@@ -1,0 +1,1384 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/internet?key=<COLLEGIATE_THESAURUS_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:54 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '96'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '["interne","interned","internee","internes","internees","internment","internist","intercept","internists","interject","interment","interest","interpret","intern","intersect","internal","intermit","interns","interred","internments"]'
+  recorded_at: Tue, 21 Jun 2022 23:24:54 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/collegiate/json/internet?key=<COLLEGIATE_DICTIONARY_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1812'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"Internet","uuid":"1ef3d798-1b5c-4ddd-a96b-324a6922c128","sort":"092336000","src":"collegiate","section":"alpha","stems":["Internet","Internets","internet","internets"],"offensive":false},"hwi":{"hw":"In*ter*net","prs":[{"mw":"\u02c8in-t\u0259r-\u02ccnet","sound":{"audio":"inter01s","ref":"c","stat":"1"}}]},"vrs":[{"vl":"or","va":"in*ter*net"}],"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}an
+        electronic communications network that connects computer networks and organizational
+        computer facilities around the world "],["uns",[[["text","used with {it}the{\/it}
+        except when being used attributively "],["vis",[{"t":"doing research on the
+        {wi}Internet{\/wi}"},{"t":"an {wi}Internet{\/wi} search"}]]]]],["snote",[["t","In
+        U.S. publications, the capitalized form {it}Internet{\/it} continues to be
+        more common than {it}internet{\/it}, although the lowercase form is rapidly
+        gaining more widespread use. In British publications, {it}internet{\/it} is
+        now the more common form."]]],["text"," {dx}compare {dxt|world wide web||}{\/dx}"]]}]]]}],"date":"1986","shortdef":["an
+        electronic communications network that connects computer networks and organizational
+        computer facilities around the world \u2014used with the except when being
+        used attributively"]},{"meta":{"id":"Internet of Things","uuid":"9d6eedd3-dc06-45a4-b814-bc639582d452","sort":"092337000","src":"collegiate","section":"alpha","stems":["Internet
+        of Things"],"offensive":false},"hwi":{"hw":"Internet of Things"},"fl":"noun
+        phrase","def":[{"sseq":[[["sense",{"dt":[["text","{bc}the networking capability
+        that allows information to be sent to and received from objects and devices
+        (such as fixtures and kitchen appliances) using the Internet "],["vis",[{"t":"The
+        {wi}Internet of Things{\/wi} really comes together with the connection of
+        sensors and machines. That is to say, the real value that the {wi}Internet
+        of Things{\/wi} creates is at the intersection of gathering data and leveraging
+        it. All the information gathered by all the sensors in the world isn\u0027t
+        worth very much if there isn\u0027t an infrastructure in place to analyze
+        it in real time.","aq":{"auth":"Daniel Burrus"}},{"t":"Extend the \u2026 example
+        to the {wi}Internet of Things{\/wi}, where any interaction with a connected
+        object has the potential of teaching something new to every connected object,
+        and the immense scaling of networked machine learning becomes almost unimaginable.","aq":{"auth":"Scott
+        Santens"}},{"t":"As many as 50 billion devices will be online by the end of
+        the decade. Along with smart thermostats and appliances, this so-called {wi}Internet
+        of Things{\/wi} (IoT) includes swaths of tiny sensors that track everything
+        from steps and calories to humidity and light.","aq":{"auth":"Corinne Iozzio"}}]],["uns",[[["text","abbreviation
+        {it}IoT{\/it}"]]]]]}]]]}],"date":"2001","shortdef":["the networking capability
+        that allows information to be sent to and received from objects and devices
+        (such as fixtures and kitchen appliances) using the Internet \u2014abbreviation
+        IoT"]},{"meta":{"id":"Internet service provider","uuid":"ede040e0-295f-4bf3-8d6c-b3a453da2ed1","sort":"092338000","src":"collegiate","section":"alpha","stems":["Internet
+        service provider","Internet service providers","internet service providers"],"offensive":false},"hwi":{"hw":"Internet
+        service provider"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a
+        company that provides its customers with access to the Internet and that may
+        also provide other Internet-related services (such as email accounts) "],["uns",[[["text","abbreviation
+        {it}ISP{\/it}"]]]],["ca",{"intro":"called also","cats":[{"cat":"access provider"}]}]]}]]]}],"date":"1990","shortdef":["a
+        company that provides its customers with access to the Internet and that may
+        also provide other Internet-related services (such as email accounts) \u2014abbreviation
+        ISP\u2014called also access provider"]},{"meta":{"id":"Voice over Internet
+        Protocol","uuid":"9760857f-6c85-488c-8414-b1624b58c23b","sort":"220124550","src":"collegiate","section":"alpha","stems":["VOIP","VoIP","Voice
+        over Internet Protocol"],"offensive":false},"hwi":{"hw":"Voice over Internet
+        Protocol"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}any of
+        various technologies that support telephony using the Internet for transmission
+        rather than traditional phone lines "],["vis",[{"t":"\u2026 you might be ready
+        for {wi}Voice over Internet Protocol{\/wi} (VoIP) service, which lets you
+        make telephone calls over the Net to any phone in the world.","aq":{"auth":"Sean
+        Portnoy"}}]],["uns",[[["text","abbreviation {it}VoIP{\/it}"]]]]]}]]]}],"date":"1992","shortdef":["any
+        of various technologies that support telephony using the Internet for transmission
+        rather than traditional phone lines \u2014abbreviation VoIP"]},{"meta":{"id":"the
+        Internet","uuid":"17468d24-da6c-49af-aa24-d7ab17ac3627","sort":"3020145000","src":"ld","section":"idioms","stems":["the
+        internet"],"offensive":false},"hwi":{"hw":"the Internet"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a
+        system that connects computers throughout the world"]]}]]]}],"shortdef":["a
+        system that connects computers throughout the world"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:55 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/reversible?key=<COLLEGIATE_THESAURUS_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '489'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"reversible","uuid":"04370808-6827-440e-ba18-b3c123d22901","src":"CTcompile","section":"alpha","stems":["reversible"],"syns":[["undoable","amendable","emendable","improvable","resolvable","reconstructible","reformable","regenerable","correctable","corrigible","fixable","redeemable","remediable","repairable","reparable","corrected","fixed","remedied","repaired"]],"ants":[["incorrigible","irrecoverable","irredeemable","irremediable","irreparable","unredeemable","irretrievable","unrecoverable","irreplaceable","irreversible","irrevocable"]],"offensive":false},"hwi":{"hw":"reversible"},"fl":"adjective","def":[{"sseq":[[["sense",{"dt":[["text","as
+        in {it}undoable{\/it}"]],"sim_list":[[{"wd":"undoable"}],[{"wd":"amendable"},{"wd":"emendable"},{"wd":"improvable"},{"wd":"resolvable"}],[{"wd":"reconstructible"},{"wd":"reformable"},{"wd":"regenerable"}],[{"wd":"correctable"},{"wd":"corrigible"},{"wd":"fixable"},{"wd":"redeemable"},{"wd":"remediable"},{"wd":"repairable"},{"wd":"reparable"}],[{"wd":"corrected"},{"wd":"fixed"},{"wd":"remedied"},{"wd":"repaired"}]],"opp_list":[[{"wd":"incorrigible"},{"wd":"irrecoverable"},{"wd":"irredeemable"},{"wd":"irremediable"},{"wd":"irreparable"},{"wd":"unredeemable"}],[{"wd":"irretrievable"},{"wd":"unrecoverable"}],[{"wd":"irreplaceable"},{"wd":"irreversible"},{"wd":"irrevocable"}]]}]]]}],"shortdef":["as
+        in undoable"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:55 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/collegiate/json/reversible?key=<COLLEGIATE_DICTIONARY_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '683'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"reversible:1","uuid":"66a50d66-8c5f-4f10-b0bd-c53455d5f19c","sort":"182884000","src":"collegiate","section":"alpha","stems":["reversibilities","reversibility","reversible","reversibly"],"offensive":false},"hom":1,"hwi":{"hw":"re*vers*ible","prs":[{"mw":"ri-\u02c8v\u0259r-s\u0259-b\u0259l","sound":{"audio":"revers05","ref":"c","stat":"1"}}]},"fl":"adjective","def":[{"sseq":[[["bs",{"sense":{"dt":[["text","{bc}capable
+        of being {a_link|reversed} or of {a_link|reversing}: such as"]]}}],["sense",{"sn":"a","dt":[["text","{bc}capable
+        of going through a series of actions (such as changes) either backward or
+        forward "],["vis",[{"t":"a {wi}reversible{\/wi} chemical reaction"}]]]}],["sense",{"sn":"b","dt":[["text","{bc}having
+        two finished usable sides "],["vis",[{"t":"{wi}reversible{\/wi} fabric"}]]]}],["sense",{"sn":"c","dt":[["text","{bc}wearable
+        with either side out "],["vis",[{"t":"a {wi}reversible{\/wi} coat"}]]]}]]]}],"uros":[{"ure":"re*vers*ibil*i*ty","prs":[{"mw":"ri-\u02ccv\u0259r-s\u0259-\u02c8bi-l\u0259-t\u0113","sound":{"audio":"revers06","ref":"c","stat":"1"}}],"fl":"noun"},{"ure":"re*vers*ibly","prs":[{"mw":"ri-\u02c8v\u0259r-s\u0259-bl\u0113","sound":{"audio":"revers07","ref":"c","stat":"1"}}],"fl":"adverb"}],"date":"1648","shortdef":["capable
+        of being reversed or of reversing: such as","capable of going through a series
+        of actions (such as changes) either backward or forward","having two finished
+        usable sides"]},{"meta":{"id":"reversible:2","uuid":"a9e27ccb-bc33-47a6-9275-7040795e4429","sort":"182885000","src":"collegiate","section":"alpha","stems":["reversible","reversibles"],"offensive":false},"hom":2,"hwi":{"hw":"reversible"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a
+        reversible cloth or article of clothing"]]}]]]}],"date":"1863","shortdef":["a
+        reversible cloth or article of clothing"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:55 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/yearn?key=<COLLEGIATE_THESAURUS_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1271'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"yearn","uuid":"7be6f059-d47f-425c-9499-6055839adfd6","src":"CTcompile","section":"alpha","stems":["yearn"],"syns":[["long","pine","agonize","chafe","bother","fear","fret","fuss","stew","stress","sweat","trouble","worry","despair"]],"ants":[["accept","abide","bear","endure","stick
+        out","stomach","sustain","take","tolerate"]],"offensive":false},"hwi":{"hw":"yearn"},"fl":"verb","def":[{"sseq":[[["sense",{"dt":[["text","as
+        in {it}long{\/it}, {it}pine{\/it}"]],"sim_list":[[{"wd":"long"},{"wd":"pine"}],[{"wd":"agonize"}],[{"wd":"chafe"}],[{"wd":"bother"},{"wd":"fear"},{"wd":"fret"},{"wd":"fuss"},{"wd":"stew"},{"wd":"stress"},{"wd":"sweat"},{"wd":"trouble"},{"wd":"worry"}],[{"wd":"despair"}]],"opp_list":[[{"wd":"accept"}],[{"wd":"abide"},{"wd":"bear"},{"wd":"endure"},{"wd":"stick
+        out"},{"wd":"stomach"},{"wd":"sustain"},{"wd":"take"},{"wd":"tolerate"}]]}]]]}],"shortdef":["as
+        in long, pine"]},{"meta":{"id":"yearn (for)","uuid":"f1c4370e-32db-4dc2-a958-b6e9639d5881","src":"coll_thes","section":"alpha","stems":["yearn
+        (for)","yearn","yearn for","yearned","yearner","yearners","yearning","yearningly","yearns"],"syns":[["ache
+        (for)","covet","crave","desiderate","desire","die (for)","hanker (for or after)","hunger
+        (for)","itch (for)","jones (for)","long (for)","lust (for or after)","pant
+        (after)","pine (for)","repine (for)","salivate (for)","sigh (for)","thirst
+        (for)","want","wish (for)","yen (for)"]],"ants":[],"offensive":false},"hwi":{"hw":"yearn
+        (for)"},"fl":"verb","def":[{"sseq":[[["sense",{"dt":[["text","to have an earnest
+        wish to own or enjoy "],["vis",[{"t":"{it}yearned for{\/it} a little house
+        in the country"}]]],"syn_list":[[{"wd":"ache (for)"},{"wd":"covet"},{"wd":"crave"},{"wd":"desiderate"},{"wd":"desire"},{"wd":"die
+        (for)"},{"wd":"hanker (for or after)"},{"wd":"hunger (for)"},{"wd":"itch (for)"},{"wd":"jones
+        (for)","wsls":["slang"]},{"wd":"long (for)"},{"wd":"lust (for or after)"},{"wd":"pant
+        (after)"},{"wd":"pine (for)"},{"wd":"repine (for)"},{"wd":"salivate (for)"},{"wd":"sigh
+        (for)"},{"wd":"thirst (for)"},{"wd":"want"},{"wd":"wish (for)"},{"wd":"yen
+        (for)"}]],"rel_list":[[{"wd":"spoil (for)"}],[{"wd":"adore"},{"wd":"delight
+        (in)"},{"wd":"dig"},{"wd":"enjoy"},{"wd":"fancy"},{"wd":"groove (on)"},{"wd":"like"},{"wd":"love"},{"wd":"relish"},{"wd":"revel
+        (in)"}],[{"wd":"favor"},{"wd":"prefer"}],[{"wd":"admire"},{"wd":"appreciate"},{"wd":"cherish"},{"wd":"prize"},{"wd":"treasure"},{"wd":"value"}]],"phrase_list":[[{"wd":"set
+        one\u0027s heart on"}]],"near_list":[[{"wd":"abhor"},{"wd":"abominate"},{"wd":"despise"},{"wd":"detest"},{"wd":"execrate"},{"wd":"hate"},{"wd":"loathe"}],[{"wd":"decline"},{"wd":"refuse"},{"wd":"reject"},{"wd":"spurn"}]]}]]]}],"shortdef":["to
+        have an earnest wish to own or enjoy"]},{"meta":{"id":"yearn (over)","uuid":"5a8b8154-4626-4ec5-b498-187df70043a7","src":"coll_thes","section":"alpha","stems":["yearn
+        (over)","yearn","yearn over","yearned","yearner","yearners","yearning","yearningly","yearns"],"syns":[["ache
+        (for)","bleed (for)","commiserate (with)","compassionate","condole (with)","feel
+        (for)","pity","sympathize (with)"]],"ants":[],"offensive":false},"hwi":{"hw":"yearn
+        (over)"},"fl":"verb","def":[{"sseq":[[["sense",{"dt":[["text","to have sympathy
+        for "],["vis",[{"t":"who wouldn\u0027t {it}yearn over{\/it} the poor little
+        girl who fell and scraped her knee?"}]]],"syn_list":[[{"wd":"ache (for)"},{"wd":"bleed
+        (for)"},{"wd":"commiserate (with)"},{"wd":"compassionate"},{"wd":"condole
+        (with)"},{"wd":"feel (for)"},{"wd":"pity"},{"wd":"sympathize (with)"}]],"rel_list":[[{"wd":"care
+        (for)"}],[{"wd":"grieve (for)"},{"wd":"sorrow (for)"}],[{"wd":"love"}],[{"wd":"empathize
+        (with)"},{"wd":"identify (with)"}],[{"wd":"tolerate"},{"wd":"understand"}]],"near_list":[[{"wd":"disregard"},{"wd":"ignore"},{"wd":"neglect"},{"wd":"overlook"}],[{"wd":"dislike"},{"wd":"hate"},{"wd":"scorn"}]]}]]]}],"shortdef":["to
+        have sympathy for"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:55 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/collegiate/json/yearn?key=<COLLEGIATE_DICTIONARY_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '957'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"yearn","uuid":"68e41b9e-376b-4c61-93f7-239c747f1c4f","sort":"250112000","src":"collegiate","section":"alpha","stems":["yearn","yearned","yearner","yearners","yearning","yearningly","yearns"],"offensive":false},"hwi":{"hw":"yearn","prs":[{"mw":"\u02c8y\u0259rn","sound":{"audio":"yearn001","ref":"c","stat":"1"}}]},"fl":"verb","ins":[{"if":"yearned"},{"if":"yearn*ing"},{"if":"yearns"}],"def":[{"vd":"intransitive
+        verb","sseq":[[["sense",{"sn":"1","dt":[["text","{bc}to long persistently,
+        wistfully, or sadly "],["vis",[{"t":"{wi}yearns{\/wi} to make a difference"}]]]}]],[["sense",{"sn":"2","dt":[["text","{bc}to
+        feel tenderness or compassion"]]}]]]}],"uros":[{"ure":"yearn*er","fl":"noun"},{"ure":"yearn*ing*ly","prs":[{"mw":"\u02c8y\u0259r-ni\u014b-l\u0113","sound":{"audio":"yearni01","ref":"c","stat":"1"}}],"fl":"adverb"}],"syns":[{"pl":"synonyms","pt":[["text","{sc}long{\/sc}
+        {sc}yearn{\/sc} {sc}hanker{\/sc} {sc}pine{\/sc} {sc}hunger{\/sc} {sc}thirst{\/sc}
+        mean to have a strong desire for something. {sc}long{\/sc} implies a wishing
+        with one\u0027s whole heart and often a striving to attain. "],["vis",[{"t":"{it}longed{\/it}
+        for some rest"}]],["text"," {sc}yearn{\/sc} suggests an eager, restless, or
+        painful longing. "],["vis",[{"t":"{it}yearned{\/it} for a stage career"}]],["text","
+        {sc}hanker{\/sc} suggests the uneasy promptings of unsatisfied appetite or
+        desire. "],["vis",[{"t":"always {it}hankering{\/it} for money"}]],["text","
+        {sc}pine{\/sc} implies a languishing or a fruitless longing for what is impossible.
+        "],["vis",[{"t":"{it}pined{\/it} for a lost love"}]],["text"," {sc}hunger{\/sc}
+        and {sc}thirst{\/sc} imply an insistent or impatient craving or a compelling
+        need. "],["vis",[{"t":"{it}hungered{\/it} for a business of his own"},{"t":"{it}thirsted{\/it}
+        for power"}]]]}],"et":[["text","Middle English {it}yernen{\/it}, from Old
+        English {it}giernan{\/it}; akin to Old High German {it}ger\u014dn{\/it} to
+        desire, Latin {it}hortari{\/it} to urge, encourage, Greek {it}chairein{\/it}
+        to rejoice"]],"date":"before 12th century{ds||1||}","shortdef":["to long persistently,
+        wistfully, or sadly","to feel tenderness or compassion"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:55 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/acre?key=<COLLEGIATE_THESAURUS_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '523'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"God\u0027s acre","uuid":"3e82fe2b-ec9f-48b8-95be-2eecfdb25143","src":"coll_thes","section":"alpha","target":{"tuuid":"00150aed-0d30-4d68-9896-e293f09b4347","tsrc":"collegiate"},"stems":["god\u0027s
+        acre","gods acre","god\u0027s acres"],"syns":[["boneyard","cemetery","graveyard","memorial
+        park","necropolis","potter\u0027s field"]],"ants":[],"offensive":false},"hwi":{"hw":"God\u0027s
+        acre"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","a piece of land
+        used for burying the dead "],["vis",[{"t":"was laid in rest in {it}God\u0027s
+        acre{\/it}, with a comforting view of the river he loved so much"}]]],"syn_list":[[{"wd":"boneyard"},{"wd":"cemetery"},{"wd":"graveyard"},{"wd":"memorial
+        park"},{"wd":"necropolis"},{"wd":"potter\u0027s field"}]],"rel_list":[[{"wd":"catacombs"},{"wd":"churchyard"}],[{"wd":"crypt"},{"wd":"grave"},{"wd":"mausoleum"},{"wd":"sepulchre","wvrs":[{"wvl":"or","wva":"sepulcher"}]},{"wd":"sepulture"},{"wd":"tomb"},{"wd":"vault"}]]}]]]}],"shortdef":["a
+        piece of land used for burying the dead"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:55 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/collegiate/json/acre?key=<COLLEGIATE_DICTIONARY_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1907'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"acre","uuid":"b939112c-53ca-4856-92d9-573f4d7e423d","sort":"010627000","src":"collegiate","section":"alpha","stems":["acre","acres"],"offensive":false},"hwi":{"hw":"acre","prs":[{"mw":"\u02c8\u0101-k\u0259r","sound":{"audio":"acre0001","ref":"c","stat":"1"}}]},"fl":"noun","def":[{"sseq":[[["sense",{"sn":"1
+        a","sls":["archaic"],"dt":[["text","{bc}a field especially of arable land
+        or pastureland"]]}],["sense",{"sn":"b","ins":[{"if":"acres","spl":"plural"}],"dt":[["text","{bc}{sx|lands||},
+        {sx|estate||}"]]}]],[["sense",{"sn":"2","dt":[["text","{bc}any of various
+        units of area"]],"sdsense":{"sd":"specifically","dt":[["text","{bc}a unit
+        in the U.S. and England equal to 43,560 square feet (4047 square meters) {dx}see
+        {dxt|Weights and Measures Table|weight|table}{\/dx}"]]}}]],[["sense",{"sn":"3","dt":[["text","{bc}a
+        broad expanse or great quantity "],["vis",[{"t":"{wi}acres{\/wi} of free publicity"}]]]}]]]}],"et":[["text","Middle
+        English {it}aker, acre,{\/it} going back to Old English {it}\u00e6cer,{\/it}
+        going back to Germanic {it}*akraz{\/it} (whence also, with {it}k{\/it} geminate
+        in West Germanic, Old Saxon {it}akkar{\/it} \u0022field,\u0022 Old High German
+        {it}ackar,{\/it} Old Norse {it}akr{\/it} \u0022arable land,\u0022 Gothic {it}akrs{\/it}
+        \u0022field\u0022), going back to Indo-European {it}*h{inf}2{\/inf}eg\u0301ros,{\/it}
+        whence also Latin {it}ager,{\/it} \u0022piece of land, field,\u0022 Greek
+        {it}agr\u00f3s,{\/it} Sanskrit {it}\u00e1jrah{\/it}"],["et_snote",[["t","This
+        Indo-European noun is traditionally linked to the verbal base {it}*h{inf}2{\/inf}eg\u0301-{\/it}
+        \u0022drive (cattle, etc.)\u0022 (see {et_link|agent|agent}), on the assumption
+        that {it}*h{inf}2{\/inf}eg\u0301-ros{\/it} originally meant \u0022pasture,\u0022
+        \u0022fallow land,\u0022 onto which the cattle were driven, and later developed
+        other senses, as \u0022cultivated field.\u0022 The semantic plausibility of
+        such a derivation has recently been questioned, however."]]]],"date":"before
+        12th century{ds||1|a|}","shortdef":["a field especially of arable land or
+        pastureland","lands, estate","any of various units of area; specifically :
+        a unit in the U.S. and England equal to 43,560 square feet (4047 square meters)"]},{"meta":{"id":"Acre:g1","uuid":"a7a3e62d-6541-485f-80de-38083f5e67ba","sort":"270047000","src":"collegiate","section":"geog","stems":["Acre"],"offensive":false},"hwi":{"hw":"Acre","prs":[{"mw":"\u02c8\u00e4-kr\u0113","sound":{"audio":"ggacre02","ref":"in
+        CD-R","stat":"6"}},{"mw":"-(\u02cc)kr\u0101","sound":{"audio":"ggacre01"}}]},"fl":"geographical
+        name","def":[{"sseq":[[["sense",{"dt":[["text","state in western Brazil bordering
+        on Peru and Bolivia; capital Rio Branco {it}area{\/it} 59,343 square miles
+        (153,698 square kilometers), {it}population{\/it} 733,559"]]}]]]}],"shortdef":["state
+        in western Brazil bordering on Peru and Bolivia; capital Rio Branco area 59,343
+        square miles (153,698 square kilometers), population 733,559"]},{"meta":{"id":"Acre:g2","uuid":"41be870b-3993-4232-a1e7-958f8a189c81","sort":"270048000","src":"collegiate","section":"geog","stems":["\u0027Akko","Accho","Acre","Ptolemais"],"offensive":false},"hwi":{"hw":"Acre","prs":[{"mw":"\u02c8\u00e4-k\u0259r","sound":{"audio":"ggacre02","ref":"c","stat":"1"}},{"mw":"\u02c8\u0101-k\u0259r"},{"mw":"\u02c8\u00e4-kr\u0259","sound":{"audio":"ggacre01","ref":"c","stat":"1"}}]},"vrs":[{"vl":"or
+        Hebrew","va":"\u02bdAk*ko"},{"vl":"or Old Testament","va":"Ac*cho","prs":[{"mw":"\u02c8\u00e4-k\u014d","sound":{"audio":"accho01g","ref":"c","stat":"1"}},{"mw":"\u02c8\u0101-"}]},{"vl":"or
+        New Testament","va":"Ptol*e*ma*\u00efs","prs":[{"mw":"\u02cct\u00e4-l\u0259-\u02c8m\u0101-\u0259s","sound":{"audio":"ggacre03","ref":"c","stat":"1"}}]}],"fl":"geographical
+        name","def":[{"sseq":[[["sense",{"dt":[["text","city and port at the head
+        of a bay on the Mediterranean Sea north of Mount Carmel in northwestern Israel
+        {it}population{\/it} 37,400"]]}]]]}],"shortdef":["city and port at the head
+        of a bay on the Mediterranean Sea north of Mount Carmel in northwestern Israel
+        population 37,400"]},{"meta":{"id":"acre-foot","uuid":"db433309-1613-4851-a417-53f7ef04d3cb","sort":"010629000","src":"collegiate","section":"alpha","stems":["acre-feet","acre-foot"],"offensive":false},"hwi":{"hw":"acre-foot","prs":[{"mw":"\u02c8\u0101-k\u0259r-\u02c8fu\u0307t","sound":{"audio":"acref01w","ref":"c","stat":"1"}}]},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}the
+        volume (as of irrigation water) that would cover one acre to a depth of one
+        foot"]]}]]]}],"date":"1889","shortdef":["the volume (as of irrigation water)
+        that would cover one acre to a depth of one foot"]},{"meta":{"id":"acre-inch","uuid":"969a0bb3-a663-4c14-a8f2-8220bf036802","sort":"010630000","src":"collegiate","section":"alpha","stems":["acre-inch","acre-inches"],"offensive":false},"hwi":{"hw":"acre-inch","prs":[{"mw":"\u02c8\u0101-k\u0259r-\u02c8inch","sound":{"audio":"acrei01w","ref":"c","stat":"1"}}]},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}one
+        twelfth of an acre-foot"]]}]]]}],"date":"circa 1909","shortdef":["one twelfth
+        of an acre-foot"]},{"meta":{"id":"God\u0027s acre","uuid":"00150aed-0d30-4d68-9896-e293f09b4347","sort":"071673000","src":"collegiate","section":"alpha","stems":["God\u0027s
+        acre","God\u0027s acres"],"offensive":false},"hwi":{"hw":"God\u0027s acre"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}{sx|churchyard||}"]]}]]]}],"date":"1605","shortdef":["churchyard"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:55 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/contrast?key=<COLLEGIATE_THESAURUS_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1347'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"contrast","uuid":"9abd2431-2662-4efd-b8d3-b8e78dbfc864","src":"coll_thes","section":"alpha","target":{"tuuid":"2da54096-294a-4498-b966-16391b4509e7","tsrc":"collegiate"},"stems":["contrast","contrasts"],"syns":[["difference","disagreement","discrepancy","disparateness","disparity","dissimilarity","dissimilitude","distance","distinction","distinctiveness","distinctness","diverseness","diversity","otherness","unlikeness"]],"ants":[["alikeness","analogousness","analogy","community","likeness","resemblance","sameness","similarity"]],"offensive":false},"hwi":{"hw":"contrast"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","the
+        quality or state of being different "],["vis",[{"t":"the {it}contrast{\/it}
+        between the two approaches to the problem of overeating could not be greater"}]]],"syn_list":[[{"wd":"difference"},{"wd":"disagreement"},{"wd":"discrepancy"},{"wd":"disparateness"},{"wd":"disparity"},{"wd":"dissimilarity"},{"wd":"dissimilitude"},{"wd":"distance"},{"wd":"distinction"},{"wd":"distinctiveness"},{"wd":"distinctness"},{"wd":"diverseness"},{"wd":"diversity"},{"wd":"otherness"},{"wd":"unlikeness"}]],"rel_list":[[{"wd":"deviance"},{"wd":"divergence"}],[{"wd":"differentiability"},{"wd":"discriminability"},{"wd":"distinguishability"}],[{"wd":"change"},{"wd":"modification"},{"wd":"variation"}],[{"wd":"conflict"},{"wd":"discord"},{"wd":"discordance"},{"wd":"dissension","wvrs":[{"wvl":"also","wva":"dissention"}]},{"wd":"dissent"},{"wd":"dissidence"},{"wd":"disunity"},{"wd":"friction"},{"wd":"strife"}],[{"wd":"variability"},{"wd":"variance"}],[{"wd":"anomalousness"},{"wd":"dichotomy"},{"wd":"incompatibility"},{"wd":"incongruence"},{"wd":"incongruity"},{"wd":"incongruousness"},{"wd":"nonconformity"}],[{"wd":"disproportion"},{"wd":"imbalance"},{"wd":"inequality"},{"wd":"nonequivalence"}]],"near_list":[[{"wd":"identicalness"},{"wd":"identity"}],[{"wd":"accordance"},{"wd":"agreement"},{"wd":"conformity"},{"wd":"congruity"},{"wd":"correspondence"},{"wd":"parallelism"},{"wd":"similitude"}],[{"wd":"equality"},{"wd":"equivalence"},{"wd":"equivalency"}],[{"wd":"homogeneity"},{"wd":"homogeneousness"},{"wd":"uniformity"}]],"ant_list":[[{"wd":"alikeness"},{"wd":"analogousness"},{"wd":"analogy"},{"wd":"community"},{"wd":"likeness"},{"wd":"resemblance"},{"wd":"sameness"},{"wd":"similarity"}]]}]]]}],"shortdef":["the
+        quality or state of being different"]},{"meta":{"id":"contrast","uuid":"65f6a950-1680-44bc-9b9c-a12642b1ca1c","src":"coll_thes","section":"alpha","target":{"tuuid":"449ca70a-5dd0-43a8-aea6-762612d36ada","tsrc":"collegiate"},"stems":["contrast","contrastable","contrasted","contrasting","contrastingly","contrasts"],"syns":[["differ","vary"]],"ants":[["compare","match"]],"offensive":false},"hwi":{"hw":"contrast"},"fl":"verb","def":[{"sseq":[[["sense",{"dt":[["text","to
+        be unlike; to not be the same "],["vis",[{"t":"her depressed mood today {it}contrasts{\/it}
+        sharply with her good spirits yesterday"}]]],"syn_list":[[{"wd":"differ"},{"wd":"vary"}]],"rel_list":[[{"wd":"deviate"},{"wd":"diverge"},{"wd":"divide"},{"wd":"fluctuate"},{"wd":"separate"}]],"near_list":[[{"wd":"accord"},{"wd":"agree"},{"wd":"conform"},{"wd":"correspond"}]],"ant_list":[[{"wd":"compare"},{"wd":"match"}]]}]]]}],"shortdef":["to
+        be unlike; to not be the same"]},{"meta":{"id":"in contrast (to)","uuid":"e5bcfd00-1824-4780-92ce-1b6a4f5b99d8","src":"CTcompile","section":"alpha","stems":["in
+        contrast (to)","in contrast to","in contrast (with)","in contrast with"],"syns":[["as
+        opposed to","compared to","contrasted (to)","in comparison (to)","athwart","contrary
+        to","with","against","agin","anti","contra","versus"]],"ants":[],"offensive":false},"hwi":{"hw":"in
+        contrast (to)"},"vrs":[{"vl":"or","va":"in contrast (with)"}],"fl":"preposition","def":[{"sseq":[[["sense",{"dt":[["text","as
+        in {it}contrasted (to){\/it}, {it}in comparison (to){\/it}"]],"sim_list":[[{"wd":"as
+        opposed to"},{"wd":"compared to","wvrs":[{"wvl":"or","wva":"compared with"}]},{"wd":"contrasted
+        (to)","wvrs":[{"wvl":"or","wva":"contrasted (with)"}]},{"wd":"in comparison
+        (to)","wvrs":[{"wvl":"or","wva":"in comparison (with)"}]}],[{"wd":"athwart"},{"wd":"contrary
+        to"}],[{"wd":"with"}],[{"wd":"against"},{"wd":"agin","wsls":["dialect"]},{"wd":"anti"},{"wd":"contra"},{"wd":"versus"}]]}]]]}],"shortdef":["as
+        in contrasted (to), in comparison (to)"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:55 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/collegiate/json/contrast?key=<COLLEGIATE_DICTIONARY_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2635'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"contrast:1","uuid":"449ca70a-5dd0-43a8-aea6-762612d36ada","sort":"035574100","src":"collegiate","section":"alpha","stems":["contrast","contrastable","contrasted","contrasting","contrastingly","contrasts"],"offensive":false},"hom":1,"hwi":{"hw":"con*trast","prs":[{"mw":"k\u0259n-\u02c8trast","sound":{"audio":"contra62","ref":"c","stat":"1"}},{"mw":"\u02c8k\u00e4n-\u02cctrast","sound":{"audio":"contra61","ref":"c","stat":"1"}}]},"fl":"verb","ins":[{"if":"con*trast*ed"},{"if":"con*trast*ing"},{"if":"con*trasts"}],"def":[{"vd":"transitive
+        verb","sseq":[[["sense",{"dt":[["text","{bc}to set off in {d_link|contrast|contrast:2}
+        {bc}compare or appraise in respect to differences "],["vis",[{"t":"{wi}Contrast{\/wi}
+        European and American manners."},{"t":"{wi}Contrast{\/wi} the two major characters
+        of the novel."}]],["uns",[[["text","often used with {it}to{\/it} or {it}with{\/it}
+        "],["vis",[{"t":"{wi}contrasting{\/wi} the painter with her contemporaries"}]]]]]]}]]]},{"vd":"intransitive
+        verb","sseq":[[["sense",{"dt":[["text","{bc}to form a contrast"]]}]]]}],"uros":[{"ure":"con*trast*able","prs":[{"mw":"k\u0259n-\u02c8tra-st\u0259-b\u0259l","sound":{"audio":"contra63","ref":"c","stat":"1"}},{"mw":"\u02c8k\u00e4n-\u02cctra-"}],"fl":"adjective"},{"ure":"con*trast*ing*ly","prs":[{"mw":"k\u0259n-\u02c8tra-sti\u014b-l\u0113","sound":{"audio":"contr02v","ref":"c","stat":"1"}},{"mw":"\u02c8k\u00e4n-\u02cctra-"}],"fl":"adverb"}],"syns":[{"pl":"synonyms","pt":[["text","{sc}compare{\/sc}
+        {sc}contrast{\/sc} {sc}collate{\/sc} mean to set side by side in order to
+        show differences and likenesses. {sc}compare{\/sc} implies an aim of showing
+        relative values or excellences by bringing out characteristic qualities whether
+        similar or divergent. "],["vis",[{"t":"{it}compared{\/it} the convention facilities
+        of the two cities"}]],["text"," {sc}contrast{\/sc} implies an emphasis on
+        differences. "],["vis",[{"t":"{it}contrasted{\/it} the computerized system
+        with the old filing cards"}]],["text"," {sc}collate{\/sc} implies minute and
+        critical inspection in order to note points of agreement or divergence. "],["vis",[{"t":"data
+        from districts around the country will be {it}collated{\/it}"}]]]}],"et":[["text","French
+        {it}contraster{\/it}, from Middle French, to oppose, resist, alteration of
+        {it}contrester{\/it}, from Vulgar Latin {it}*contrastare{\/it}, from Latin
+        {it}contra-{\/it} + {it}stare{\/it} to stand {ma}{mat|stand|}{\/ma}"]],"date":"1646{ds|t|||}","shortdef":["to
+        set off in contrast : compare or appraise in respect to differences \u2014often
+        used with to or with","to form a contrast"]},{"meta":{"id":"contrast:2","uuid":"2da54096-294a-4498-b966-16391b4509e7","sort":"035574200","src":"collegiate","section":"alpha","stems":["contrast","contrasts"],"offensive":false},"hom":2,"hwi":{"hw":"con*trast","prs":[{"mw":"\u02c8k\u00e4n-\u02cctrast","sound":{"audio":"contra64","ref":"c","stat":"1"}}]},"fl":"noun","def":[{"sseq":[[["sense",{"sn":"1
+        a","dt":[["text","{bc}{d_link|juxtaposition|juxtaposition} of dissimilar elements
+        (such as color, tone, or emotion) in a work of art"]]}],["sense",{"sn":"b","dt":[["text","{bc}degree
+        of difference between the lightest and darkest parts of a picture"]]}]],[["sense",{"sn":"2
+        a","dt":[["text","{bc}the difference or degree of difference between things
+        having similar or comparable natures "],["vis",[{"t":"the {wi}contrast{\/wi}
+        between the two forms of government"}]]]}],["sense",{"sn":"b","dt":[["text","{bc}comparison
+        of similar objects to set off their dissimilar qualities "],["vis",[{"t":"By
+        {wi}contrast{\/wi} with newer models, the computer operates slowly."}]],["text","
+        {bc}the state of being so compared "],["vis",[{"t":"In {wi}contrast{\/wi}
+        to the other estimates, his was very high."}]]]}]],[["sense",{"sn":"3","dt":[["text","{bc}a
+        person or thing that exhibits differences when compared with another "],["vis",[{"t":"The
+        gentle girl is a {wi}contrast{\/wi} to the arrogant woman."}]]]}]]]}],"et":[["text","{dx_ety}see
+        {dxt|contrast:1||}{\/dx_ety}"]],"date":"1711{ds||1|a|}","shortdef":["juxtaposition
+        of dissimilar elements (such as color, tone, or emotion) in a work of art","degree
+        of difference between the lightest and darkest parts of a picture","the difference
+        or degree of difference between things having similar or comparable natures"]},{"meta":{"id":"phase-contrast","uuid":"522b2f0d-dda8-46a7-96c9-20e8e3411f23","sort":"160230600","src":"collegiate","section":"alpha","stems":["phase-contrast"],"offensive":false},"hwi":{"hw":"phase-contrast"},"fl":"adjective","def":[{"sseq":[[["sense",{"dt":[["text","{bc}of
+        or employing the phase-contrast microscope"]]}]]]}],"date":"1934","shortdef":["of
+        or employing the phase-contrast microscope"]},{"meta":{"id":"phase-contrast
+        microscope","uuid":"ba134a00-2599-47ae-8b66-119ddcd52a35","sort":"160230700","src":"collegiate","section":"alpha","stems":["phase
+        microscope","phase-contrast microscope","phase-contrast microscopes"],"offensive":false},"hwi":{"hw":"phase-contrast
+        microscope"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a microscope
+        that translates differences in phase of the light transmitted through or reflected
+        by the object into differences of intensity in the image "],["ca",{"intro":"called
+        also","cats":[{"cat":"phase microscope"}]}]]}]]]}],"date":"1947","shortdef":["a
+        microscope that translates differences in phase of the light transmitted through
+        or reflected by the object into differences of intensity in the image \u2014called
+        also phase microscope"]},{"meta":{"id":"by\/in contrast","uuid":"0a919fff-262b-457b-a890-02b1e903b621","sort":"3002647500","src":"ld","section":"idioms","stems":["by
+        contrast","by contrast to","by contrast with","in contrast","in contrast to","in
+        contrast with"],"offensive":false},"hwi":{"hw":"by\/in contrast"},"fl":"idiom","def":[{"sseq":[[["sense",{"dt":[["text","{bc}when
+        compared to another {bc}when looked at or thought about in relation to similar
+        objects or people to set off dissimilar qualities "],["vis",[{"t":"She had
+        a big personality, which made her husband seem dull {it}by contrast{\/it}."}]],["uns",[[["text","often
+        + {it}with{\/it} or {it}to{\/it} "],["vis",[{"t":"{it}In contrast with{\/it}
+        last year\u0027s profits, the company is not doing very well."}]]]]]]}]]]}],"shortdef":["when
+        compared to another : when looked at or thought about in relation to similar
+        objects or people to set off dissimilar qualities \u2014often + with or to"]},{"meta":{"id":"compare
+        and contrast","uuid":"eab8e2f0-2aa7-4870-9494-6eb786b80452","sort":"3003794000","src":"ld","section":"idioms","stems":["compare
+        and contrast"],"offensive":false},"hwi":{"hw":"compare and contrast"},"fl":"idiom","def":[{"sseq":[[["sense",{"dt":[["text","{bc}to
+        note what is similar and different about (two or more things) "],["vis",[{"t":"For
+        our assignment we must {it}compare and contrast{\/it} the two poets."}]]]}]]]}],"shortdef":["to
+        note what is similar and different about (two or more things)"]},{"meta":{"id":"in
+        marked contrast to","uuid":"f358a766-b4fe-4e31-a9fb-d48923d4d2e8","sort":"3009615000","src":"ld","section":"idioms","stems":["in
+        marked contrast to"],"offensive":false},"hwi":{"hw":"in marked contrast to"},"fl":"idiom","def":[{"sseq":[[["sense",{"dt":[["text","{bc}very
+        different from "],["vis",[{"t":"His current friendly manner is {it}in marked
+        contrast to{\/it} his usual behavior."}]]]}]]]}],"shortdef":["very different
+        from"]},{"meta":{"id":"in stark\/marked\/sharp contrast with\/to","uuid":"39b398a2-c9ba-47bc-b1a9-13e0b44f678f","sort":"3009834000","src":"ld","section":"idioms","stems":["in
+        marked contrast to","in marked contrast with","in sharp contrast to","in sharp
+        contrast with","in stark contrast to","in stark contrast with","in stark\/marked\/sharp
+        contrast with\/to"],"offensive":false},"hwi":{"hw":"in stark\/marked\/sharp
+        contrast with\/to"},"fl":"idiom","def":[{"sseq":[[["sense",{"dt":[["text","{bc}very
+        different from (something else) "],["vis",[{"t":"His comments were {it}in
+        stark\/marked\/sharp contrast with\/to{\/it} his earlier statements."}]]]}]]]}],"shortdef":["very
+        different from (something else)"]},{"meta":{"id":"in striking contrast to\/with","uuid":"5a374869-55c3-46a9-b60d-9e5955d94287","sort":"3009843000","src":"ld","section":"idioms","stems":["in
+        striking contrast to","in striking contrast to\/with","in striking contrast
+        with"],"offensive":false},"hwi":{"hw":"in striking contrast to\/with"},"fl":"idiom","def":[{"sseq":[[["sense",{"dt":[["text","{bc}very
+        different from "],["vis",[{"t":"The building\u0027s modern style is {it}in
+        striking contrast to{\/it} the surrounding neighborhood."}]]]}]]]}],"shortdef":["very
+        different from"]},{"meta":{"id":"stand in striking contrast to\/with","uuid":"cea217a3-f04e-40b6-bb23-fba5cafc3e6b","sort":"3018458000","src":"ld","section":"idioms","stems":["stand
+        in striking contrast to","stand in striking contrast to\/with","stand in striking
+        contrast with"],"offensive":false},"hwi":{"hw":"stand in striking contrast
+        to\/with"},"fl":"idiom","def":[{"sseq":[[["sense",{"dt":[["text","{bc}to be
+        very different from "],["vis",[{"t":"The building\u0027s modern style {it}stands
+        in striking contrast to{\/it} the surrounding neighborhood."}]]]}]]]}],"shortdef":["to
+        be very different from"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:56 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/superior?key=<COLLEGIATE_THESAURUS_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4244'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"superior","uuid":"04164052-7c60-4391-9d30-f0d8c672e1f6","src":"coll_thes","section":"alpha","target":{"tuuid":"926b97ba-d82b-4d41-a0fb-d2b3d471371a","tsrc":"collegiate"},"stems":["superior","superiorly"],"syns":[["arrogant","assumptive","bumptious","cavalier","chesty","haughty","high-and-mighty","high-handed","high-hat","highfalutin","huffish","huffy","imperious","important","lofty","lordly","masterful","overweening","peremptory","pompous","presuming","presumptuous","pretentious","self-asserting","self-assertive","sniffy","stiff-necked","supercilious","toplofty","uppish","uppity"],["disdainful","haughty","highfalutin","lofty","lordly","prideful","proud"],["A-OK","A1","awesome","bang-up","banner","beautiful","blue-chip","blue-ribbon","boffo","bonny","boss","brag","brave","bully","bumper","capital","choice","classic","cool","corking","crackerjack","cracking","dandy","divine","dope","down","dynamite","excellent","fab","fabulous","famous","fantabulous","fantastic","fine","first-class","first-rate","first-string","five-star","four-star","frontline","gangbusters","gilt-edged","gone","grand","great","groovy","heavenly","high-class","hot","hype","immense","jim-dandy","keen","lovely","marvelous","mean","neat","nifty","noble","number
+        one","numero uno","out-of-sight","par excellence","peachy","peachy keen","phat","prime","primo","prize","prizewinning","quality","radical","righteous","sensational","slick","splendid","stellar","sterling","superb","superlative","supernal","swell","terrific","tip-top","top","top-notch","top-of-the-line","top-shelf","topflight","topping","unsurpassed","wizard","wonderful"],["astral","bright","distinguished","eminent","illustrious","luminous","noble","notable","noteworthy","outstanding","preeminent","prestigious","redoubtable","signal","star"]],"ants":[["humble","lowly","modest","unarrogant","unpretentious"],["humble","lowly","modest"],["atrocious","awful","execrable","lousy","pathetic","poor","rotten","terrible","vile","wretched"]],"offensive":false},"hwi":{"hw":"superior"},"fl":"adjective","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","having
+        a feeling of superiority that shows itself in an overbearing attitude "],["vis",[{"t":"that
+        {it}superior{\/it} sportscaster lets it be known that he thinks all foreign
+        baseball teams are second-rate"}]]],"syn_list":[[{"wd":"arrogant"},{"wd":"assumptive"},{"wd":"bumptious"},{"wd":"cavalier"},{"wd":"chesty"},{"wd":"haughty"},{"wd":"high-and-mighty"},{"wd":"high-handed"},{"wd":"high-hat"},{"wd":"highfalutin","wvrs":[{"wvl":"also","wva":"hifalutin"}]},{"wd":"huffish"},{"wd":"huffy"},{"wd":"imperious"},{"wd":"important"},{"wd":"lofty"},{"wd":"lordly"},{"wd":"masterful"},{"wd":"overweening"},{"wd":"peremptory"},{"wd":"pompous"},{"wd":"presuming"},{"wd":"presumptuous"},{"wd":"pretentious"},{"wd":"self-asserting"},{"wd":"self-assertive"},{"wd":"sniffy"},{"wd":"stiff-necked"},{"wd":"supercilious"},{"wd":"toplofty","wvrs":[{"wvl":"also","wva":"toploftical"}]},{"wd":"uppish"},{"wd":"uppity"}]],"rel_list":[[{"wd":"authoritarian"},{"wd":"bossy"},{"wd":"dominant"},{"wd":"dominating"},{"wd":"domineering"},{"wd":"magisterial"},{"wd":"pontifical"},{"wd":"pontificating"}],[{"wd":"condescending"},{"wd":"disdainful"},{"wd":"patronizing"}],[{"wd":"impertinent"},{"wd":"impudent"},{"wd":"saucy"}],[{"wd":"snobbish"},{"wd":"snobby"},{"wd":"snooty"}],[{"wd":"blusterous"},{"wd":"blustery"},{"wd":"boastful"},{"wd":"bombastic"},{"wd":"braggart"},{"wd":"bragging"},{"wd":"braggy"},{"wd":"cocky"},{"wd":"swaggering"},{"wd":"vain"},{"wd":"vainglorious"}],[{"wd":"complacent"},{"wd":"conceited"},{"wd":"egocentric"},{"wd":"egoistic","wvrs":[{"wvl":"also","wva":"egoistical"}]},{"wd":"egotistic","wvrs":[{"wvl":"or","wva":"egotistical"}]},{"wd":"hubristic"},{"wd":"narcissistic"},{"wd":"orgulous"},{"wd":"prideful"},{"wd":"proud"},{"wd":"self-affected"},{"wd":"self-applauding"},{"wd":"self-centered"},{"wd":"self-complacent"},{"wd":"self-conceited"},{"wd":"self-pleased"},{"wd":"self-satisfied"},{"wd":"smug"},{"wd":"stuck-up"}],[{"wd":"self-flattering"},{"wd":"self-loving"},{"wd":"self-promoting"}],[{"wd":"brash"},{"wd":"forward"},{"wd":"uninhibited"},{"wd":"unreserved"}],[{"wd":"extroverted","wvrs":[{"wvl":"also","wva":"extraverted"}]},{"wd":"immodest"}]],"near_list":[[{"wd":"bashful"},{"wd":"cowering"},{"wd":"cringing"},{"wd":"demure"},{"wd":"diffident"},{"wd":"introverted"},{"wd":"mousy","wvrs":[{"wvl":"or","wva":"mousey"}]},{"wd":"overmodest"},{"wd":"self-critical"},{"wd":"self-doubting"},{"wd":"sheepish"},{"wd":"shrinking"},{"wd":"shy"},{"wd":"subdued"},{"wd":"timid"}],[{"wd":"acquiescent"},{"wd":"compliant"},{"wd":"deferential"},{"wd":"meek"},{"wd":"passive"},{"wd":"submissive"},{"wd":"unaggressive"},{"wd":"unassertive"},{"wd":"unassuming"},{"wd":"unobtrusive"},{"wd":"yielding"}],[{"wd":"quiet"},{"wd":"reserved"},{"wd":"retiring"}]],"ant_list":[[{"wd":"humble"},{"wd":"lowly"},{"wd":"modest"},{"wd":"unarrogant"},{"wd":"unpretentious"}]]}]],[["sense",{"sn":"2","dt":[["text","having
+        or displaying feelings of scorn for what is regarded as beneath oneself "],["vis",[{"t":"the
+        {it}superior{\/it} attitude of the store owner\u0027s son drove the other
+        employees crazy"}]]],"syn_list":[[{"wd":"disdainful"},{"wd":"haughty"},{"wd":"highfalutin","wvrs":[{"wvl":"also","wva":"hifalutin"}]},{"wd":"lofty"},{"wd":"lordly"},{"wd":"prideful"},{"wd":"proud"}]],"rel_list":[[{"wd":"complacent"},{"wd":"conceited"},{"wd":"egoistic"},{"wd":"egotistic","wvrs":[{"wvl":"also","wva":"egotistical"}]},{"wd":"important"},{"wd":"self-assertive"},{"wd":"self-conceited"},{"wd":"self-contented"},{"wd":"self-important"},{"wd":"self-satisfied"},{"wd":"smug"},{"wd":"uppity"},{"wd":"vain"},{"wd":"vainglorious"}],[{"wd":"arrogant"},{"wd":"pretentious"},{"wd":"sniffy"},{"wd":"snobbish"},{"wd":"stuck-up"},{"wd":"supercilious"}],[{"wd":"cavalier"},{"wd":"overbearing"},{"wd":"overweening"},{"wd":"peremptory"},{"wd":"swaggering"}],[{"wd":"high-sounding"},{"wd":"pompous"}],[{"wd":"condescending"},{"wd":"patronizing"}],[{"wd":"cocky"},{"wd":"overconfident"},{"wd":"presuming"},{"wd":"presumptuous"}],[{"wd":"bloated"},{"wd":"boastful"},{"wd":"bombastic"},{"wd":"self-glorifying"}],[{"wd":"audacious"},{"wd":"bold"},{"wd":"brash"},{"wd":"brassy"},{"wd":"cheeky"},{"wd":"cocksure"},{"wd":"forward"},{"wd":"impertinent"},{"wd":"impudent"},{"wd":"saucy"}],[{"wd":"confident"},{"wd":"presuming"},{"wd":"self-assured"},{"wd":"self-confident"},{"wd":"sure"}],[{"wd":"bossy"},{"wd":"domineering"},{"wd":"high-handed"},{"wd":"imperious"}],[{"wd":"egocentric"},{"wd":"self-centered"},{"wd":"selfish"}],[{"wd":"dominating"},{"wd":"magisterial"},{"wd":"masterful"}]],"near_list":[[{"wd":"demure"},{"wd":"homely"},{"wd":"meek"},{"wd":"unassuming"},{"wd":"unpretending"},{"wd":"unpretentious"}],[{"wd":"bashful"},{"wd":"retiring"},{"wd":"shy"},{"wd":"timid"}],[{"wd":"diffident"},{"wd":"self-doubting"}],[{"wd":"acquiescent"},{"wd":"compliant"},{"wd":"deferential"},{"wd":"ingratiating"},{"wd":"resigned"},{"wd":"submissive"},{"wd":"unassertive"},{"wd":"yielding"}],[{"wd":"apologetic"},{"wd":"cowering"},{"wd":"cringing"},{"wd":"shrinking"}],[{"wd":"passive"},{"wd":"quiet"},{"wd":"reserved"},{"wd":"subdued"},{"wd":"unobtrusive"}]],"ant_list":[[{"wd":"humble"},{"wd":"lowly"},{"wd":"modest"}]]}]],[["sense",{"sn":"3","dt":[["text","of
+        the very best kind "],["vis",[{"t":"a five-star restaurant known for its {it}superior{\/it}
+        wine list"}]]],"syn_list":[[{"wd":"A-OK"},{"wd":"A1"},{"wd":"awesome"},{"wd":"bang-up"},{"wd":"banner"},{"wd":"beautiful"},{"wd":"blue-chip"},{"wd":"blue-ribbon"},{"wd":"boffo"},{"wd":"bonny","wvrs":[{"wvl":"also","wva":"bonnie"}],"wsls":["chiefly
+        British"]},{"wd":"boss","wsls":["slang"]},{"wd":"brag"},{"wd":"brave"},{"wd":"bully"},{"wd":"bumper"},{"wd":"capital"},{"wd":"choice"},{"wd":"classic"},{"wd":"cool","wsls":["slang"]},{"wd":"corking"},{"wd":"crackerjack"},{"wd":"cracking"},{"wd":"dandy"},{"wd":"divine"},{"wd":"dope","wsls":["slang"]},{"wd":"down","wsls":["slang"]},{"wd":"dynamite"},{"wd":"excellent"},{"wd":"fab"},{"wd":"fabulous"},{"wd":"famous"},{"wd":"fantabulous","wsls":["slang"]},{"wd":"fantastic"},{"wd":"fine"},{"wd":"first-class"},{"wd":"first-rate"},{"wd":"first-string"},{"wd":"five-star"},{"wd":"four-star"},{"wd":"frontline"},{"wd":"gangbusters","wvrs":[{"wvl":"also","wva":"gangbuster"}]},{"wd":"gilt-edged","wvrs":[{"wvl":"or","wva":"gilt-edge"}]},{"wd":"gone","wsls":["slang"]},{"wd":"grand"},{"wd":"great"},{"wd":"groovy"},{"wd":"heavenly"},{"wd":"high-class"},{"wd":"hot"},{"wd":"hype","wsls":["slang"]},{"wd":"immense"},{"wd":"jim-dandy"},{"wd":"keen"},{"wd":"lovely"},{"wd":"marvelous","wvrs":[{"wvl":"or","wva":"marvellous"}]},{"wd":"mean"},{"wd":"neat"},{"wd":"nifty"},{"wd":"noble"},{"wd":"number
+        one","wvrs":[{"wvl":"also","wva":"No. 1"}]},{"wd":"numero uno"},{"wd":"out-of-sight","wsls":["slang"]},{"wd":"par
+        excellence"},{"wd":"peachy"},{"wd":"peachy keen"},{"wd":"phat","wsls":["slang"]},{"wd":"prime"},{"wd":"primo","wsls":["slang"]},{"wd":"prize"},{"wd":"prizewinning"},{"wd":"quality"},{"wd":"radical","wsls":["slang"]},{"wd":"righteous","wsls":["slang"]},{"wd":"sensational"},{"wd":"slick"},{"wd":"splendid"},{"wd":"stellar"},{"wd":"sterling"},{"wd":"superb"},{"wd":"superlative"},{"wd":"supernal"},{"wd":"swell"},{"wd":"terrific"},{"wd":"tip-top"},{"wd":"top"},{"wd":"top-notch"},{"wd":"top-of-the-line"},{"wd":"top-shelf"},{"wd":"topflight"},{"wd":"topping","wsls":["chiefly
+        British"]},{"wd":"unsurpassed"},{"wd":"wizard","wsls":["chiefly British"]},{"wd":"wonderful"}]],"rel_list":[[{"wd":"acceptable"},{"wd":"adequate"},{"wd":"all
+        right"},{"wd":"decent"},{"wd":"good"},{"wd":"OK","wvrs":[{"wvl":"or","wva":"okay"}]},{"wd":"passable"},{"wd":"satisfactory"},{"wd":"tolerable"}],[{"wd":"better"},{"wd":"exceptional"},{"wd":"fancy"},{"wd":"high-grade"},{"wd":"high-test"},{"wd":"premium"},{"wd":"select"},{"wd":"special"},{"wd":"superfine"}],[{"wd":"classical"},{"wd":"standard"},{"wd":"traditional"}]],"phrase_list":[[{"wd":"out
+        of this world"},{"wd":"too much"}]],"near_list":[[{"wd":"bad"},{"wd":"inferior"},{"wd":"low-grade"},{"wd":"substandard"},{"wd":"unsatisfactory"}],[{"wd":"mediocre"},{"wd":"middling"},{"wd":"second-class"},{"wd":"second-rate"}]],"ant_list":[[{"wd":"atrocious"},{"wd":"awful"},{"wd":"execrable"},{"wd":"lousy"},{"wd":"pathetic"},{"wd":"poor"},{"wd":"rotten"},{"wd":"terrible"},{"wd":"vile"},{"wd":"wretched"}]]}]],[["sense",{"sn":"4","dt":[["text","standing
+        above others in rank, importance, or achievement "],["vis",[{"t":"a university
+        known for attracting {it}superior{\/it} scientists and mathematicians"}]]],"syn_list":[[{"wd":"astral"},{"wd":"bright"},{"wd":"distinguished"},{"wd":"eminent"},{"wd":"illustrious"},{"wd":"luminous"},{"wd":"noble"},{"wd":"notable"},{"wd":"noteworthy"},{"wd":"outstanding"},{"wd":"preeminent"},{"wd":"prestigious"},{"wd":"redoubtable"},{"wd":"signal"},{"wd":"star"}]],"rel_list":[[{"wd":"celebrated"},{"wd":"exalted"},{"wd":"famed"},{"wd":"famous"},{"wd":"glorious"},{"wd":"honored"},{"wd":"renowned"},{"wd":"reputable"}],[{"wd":"infamous"},{"wd":"notorious"}],[{"wd":"dominant"},{"wd":"paramount"},{"wd":"predominant"}]],"near_list":[[{"wd":"insignificant"},{"wd":"minor"},{"wd":"unimportant"}],[{"wd":"average"},{"wd":"inferior"},{"wd":"mediocre"}],[{"wd":"obscure"},{"wd":"uncelebrated"},{"wd":"unsung"}]]}]]]}],"shortdef":["having
+        a feeling of superiority that shows itself in an overbearing attitude","having
+        or displaying feelings of scorn for what is regarded as beneath oneself","of
+        the very best kind"]},{"meta":{"id":"superior","uuid":"bc611e10-793d-4ded-b7a5-de87fed4cc13","src":"coll_thes","section":"alpha","target":{"tuuid":"d6ff320b-763a-4590-85e2-437164ac0e35","tsrc":"collegiate"},"stems":["superior","superiors"],"syns":[["better","elder","senior"]],"ants":[["inferior","subordinate","underling"]],"offensive":false},"hwi":{"hw":"superior"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","one
+        who is above another in rank, station, or office "],["vis",[{"t":"if a customer
+        is rude to you, report it to your {it}superior{\/it} and she\u0027ll handle
+        it"}]]],"syn_list":[[{"wd":"better"},{"wd":"elder"},{"wd":"senior"}]],"rel_list":[[{"wd":"boss"},{"wd":"chief"},{"wd":"head"},{"wd":"leader"},{"wd":"master"}]],"near_list":[[{"wd":"assistant"},{"wd":"deputy"}]],"ant_list":[[{"wd":"inferior"},{"wd":"subordinate"},{"wd":"underling"}]]}]]]}],"shortdef":["one
+        who is above another in rank, station, or office"]},{"meta":{"id":"mother
+        superior","uuid":"89527e42-abd8-4fc0-8c8c-8aac60c96766","src":"CTcompile","section":"alpha","stems":["mother
+        superior"],"syns":[["abbess","anchoress","cloistress","conventual","novice","prioress","religious","Reverend
+        Mother","votary","nun","sister","clergywoman","deaconess","high priestess","priestess","friar","mendicant","monastic","monk","oblate","clergyperson","cleric","clerical","clerk","deacon","divine","dominie","ecclesiastic","high
+        priest","minister","preacher","reverend","abbot","archbishop","archpriest","bishop","dean","diocesan","monsignor","pope","prelate","presbyter","churchman","clergyman","father","Holy
+        Joe","padre","abb\u00e9","curate","cur\u00e9","parson","pastor","rector","shepherd","vicar","chaplain","confessor","sky
+        pilot","evangelist","missionary","missioner","missionizer","revivalist"]],"ants":[["lay
+        reader","lector","layman","layperson","secular"]],"offensive":false},"hwi":{"hw":"mother
+        superior"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","as in {it}Reverend
+        Mother{\/it}, {it}anchoress{\/it}"]],"sim_list":[[{"wd":"abbess"},{"wd":"anchoress","wvrs":[{"wvl":"or","wva":"ancress"}]},{"wd":"cloistress","wsls":["obsolete"]},{"wd":"conventual"},{"wd":"novice"},{"wd":"prioress"},{"wd":"religious"},{"wd":"Reverend
+        Mother"},{"wd":"votary","wsls":["archaic"]}],[{"wd":"nun"},{"wd":"sister"}],[{"wd":"clergywoman"},{"wd":"deaconess"},{"wd":"high
+        priestess"},{"wd":"priestess"}],[{"wd":"friar"},{"wd":"mendicant"},{"wd":"monastic"},{"wd":"monk"},{"wd":"oblate"}],[{"wd":"clergyperson"},{"wd":"cleric"},{"wd":"clerical"},{"wd":"clerk"},{"wd":"deacon"},{"wd":"divine"},{"wd":"dominie"},{"wd":"ecclesiastic"},{"wd":"high
+        priest"},{"wd":"minister"},{"wd":"preacher"},{"wd":"reverend"}],[{"wd":"abbot"},{"wd":"archbishop"},{"wd":"archpriest"},{"wd":"bishop"},{"wd":"dean"},{"wd":"diocesan"},{"wd":"monsignor"},{"wd":"pope"},{"wd":"prelate"},{"wd":"presbyter"}],[{"wd":"churchman"},{"wd":"clergyman"},{"wd":"father"},{"wd":"Holy
+        Joe","wsls":["slang"]},{"wd":"padre"}],[{"wd":"abb\u00e9"},{"wd":"curate"},{"wd":"cur\u00e9"},{"wd":"parson"},{"wd":"pastor"},{"wd":"rector"},{"wd":"shepherd"},{"wd":"vicar"}],[{"wd":"chaplain"},{"wd":"confessor"},{"wd":"sky
+        pilot"}],[{"wd":"evangelist"},{"wd":"missionary"},{"wd":"missioner"},{"wd":"missionizer"},{"wd":"revivalist"}]],"opp_list":[[{"wd":"lay
+        reader"},{"wd":"lector"}],[{"wd":"layman"},{"wd":"layperson"},{"wd":"secular"}]]}]]]}],"shortdef":["as
+        in Reverend Mother, anchoress"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:56 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/collegiate/json/superior?key=<COLLEGIATE_DICTIONARY_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2692'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"superior:1","uuid":"926b97ba-d82b-4d41-a0fb-d2b3d471371a","sort":"194958300","src":"collegiate","section":"alpha","stems":["superior","superiorly"],"offensive":false},"hom":1,"hwi":{"hw":"su*pe*ri*or","prs":[{"mw":"su\u0307-\u02c8pir-\u0113-\u0259r","sound":{"audio":"superi14","ref":"c","stat":"1"}}]},"fl":"adjective","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","{bc}situated
+        higher up {bc}{sx|upper||}"]]}]],[["sense",{"sn":"2","dt":[["text","{bc}of
+        higher rank, quality, or importance"]]}]],[["sense",{"sn":"3","dt":[["text","{bc}courageously
+        or serenely indifferent (as to something painful or disheartening)"]]}]],[["sense",{"sn":"4
+        a","dt":[["text","{bc}greater in quantity or numbers "],["vis",[{"t":"escaped
+        by {wi}superior{\/wi} speed"}]]]}],["sense",{"sn":"b","dt":[["text","{bc}excellent
+        of its kind {bc}{sx|better||} "],["vis",[{"t":"her {wi}superior{\/wi} memory"}]]]}]],[["sense",{"sn":"5","dt":[["text","{bc}being
+        a {a_link|superscript}"]]}]],[["sense",{"sn":"6 a","sls":["of an animal structure"],"dt":[["text","{bc}situated
+        above or anterior or dorsal to another and especially a corresponding part
+        "],["vis",[{"t":"a {wi}superior{\/wi} artery"}]]]}],["pseq",[["bs",{"sense":{"sn":"b","sls":["of
+        a plant structure"],"dt":[["text","{bc}situated above or near the top of another
+        part: such as"]]}}],["sense",{"sn":"(1)","sls":["of a calyx"],"dt":[["text","{bc}attached
+        to and apparently arising from the ovary"]]}],["sense",{"sn":"(2)","sls":["of
+        an ovary"],"dt":[["text","{bc}free from the calyx or other floral envelope"]]}]]]],[["sense",{"sn":"7","dt":[["text","{bc}more
+        comprehensive "],["vis",[{"t":"a genus is {wi}superior{\/wi} to a species"}]]]}]],[["sense",{"sn":"8","dt":[["text","{bc}affecting
+        or assuming an air of {a_link|superiority} {bc}{sx|supercilious||}"]]}]]]}],"uros":[{"ure":"su*pe*ri*or*ly","fl":"adverb"}],"et":[["text","Middle
+        English, from Middle French, from Latin, comparative of {it}superus{\/it}
+        upper, from {it}super{\/it} over, above {ma}{mat|over|}{\/ma}"]],"date":"14th
+        century{ds||1||}","shortdef":["situated higher up : upper","of higher rank,
+        quality, or importance","courageously or serenely indifferent (as to something
+        painful or disheartening)"]},{"meta":{"id":"superior:2","uuid":"d6ff320b-763a-4590-85e2-437164ac0e35","sort":"194958400","src":"collegiate","section":"alpha","stems":["superior","superiors"],"offensive":false},"hom":2,"hwi":{"hw":"superior"},"fl":"noun","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","{bc}one
+        who is above another in rank, station, or office"]],"sdsense":{"sd":"especially","dt":[["text","{bc}the
+        head of a religious house or order"]]}}]],[["sense",{"sn":"2","dt":[["text","{bc}one
+        that surpasses another in quality or merit"]]}]],[["sense",{"sn":"3","dt":[["text","{bc}{sx|superscript||}"]]}]]]}],"date":"15th
+        century{ds||1||}","shortdef":["one who is above another in rank, station,
+        or office; especially : the head of a religious house or order","one that
+        surpasses another in quality or merit","superscript"]},{"meta":{"id":"Superior:g","uuid":"46f3e3bc-10ef-4e3d-a277-2d79a503849b","sort":"283248000","src":"collegiate","section":"geog","stems":["Superior"],"offensive":false},"hwi":{"hw":"Su*pe*ri*or","prs":[{"mw":"su\u0307-\u02c8pir-\u0113-\u0259r","sound":{"audio":"ggsupe01","ref":"c","stat":"1"}}]},"fl":"geographical
+        name","def":[{"sseq":[[["sense",{"dt":[["text","city and port on Lake Superior
+        in northwestern Wisconsin {it}population{\/it} 27,244"]]}]]]}],"shortdef":["city
+        and port on Lake Superior in northwestern Wisconsin population 27,244"]},{"meta":{"id":"superior
+        conjunction","uuid":"66fb3072-59e8-4d0c-893e-f216b019aabd","sort":"194958500","src":"collegiate","section":"alpha","stems":["superior
+        conjunction","superior conjunctions"],"offensive":false},"hwi":{"hw":"superior
+        conjunction"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a
+        conjunction of a planet with the sun in which the sun is aligned between the
+        earth and the planet"]]}]]]}],"date":"1717","shortdef":["a conjunction of
+        a planet with the sun in which the sun is aligned between the earth and the
+        planet"]},{"meta":{"id":"superior court","uuid":"62e8056c-4527-4d12-a958-2bfc2d9c12ac","sort":"194958600","src":"collegiate","section":"alpha","stems":["superior
+        court","superior courts"],"offensive":false},"hwi":{"hw":"superior court"},"fl":"noun","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","{bc}a
+        court of general jurisdiction intermediate between the inferior courts (such
+        as a justice of the peace court) and the higher appellate courts"]]}]],[["sense",{"sn":"2","dt":[["text","{bc}a
+        court with juries having original jurisdiction"]]}]]]}],"date":"1584{ds||1||}","shortdef":["a
+        court of general jurisdiction intermediate between the inferior courts (such
+        as a justice of the peace court) and the higher appellate courts","a court
+        with juries having original jurisdiction"]},{"meta":{"id":"superior general","uuid":"d134612c-d49a-4d25-b1b2-92c0a7fe46b4","sort":"194958700","src":"collegiate","section":"alpha","stems":["superior
+        general","superiors general"],"offensive":false},"hwi":{"hw":"superior general"},"fl":"noun","ins":[{"il":"plural","if":"superiors
+        general"}],"def":[{"sseq":[[["sense",{"dt":[["text","{bc}the superior of a
+        religious order or congregation"]]}]]]}],"date":"1774","shortdef":["the superior
+        of a religious order or congregation"]},{"meta":{"id":"superior planet","uuid":"339565e7-9036-4499-a349-1abde6eb84b0","sort":"194959000","src":"collegiate","section":"alpha","stems":["superior
+        planet","superior planets"],"offensive":false},"hwi":{"hw":"superior planet"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a
+        planet (such as Jupiter) whose orbit lies outside that of Earth {dx}compare
+        {dxt|inferior planet|inferior planet|}{\/dx}"]]}]]]}],"date":"1577","shortdef":["a
+        planet (such as Jupiter) whose orbit lies outside that of Earth"]},{"meta":{"id":"superior
+        vena cava","uuid":"401319db-b04e-4343-81f6-23f33f6a178f","sort":"194959100","src":"collegiate","section":"alpha","stems":["superior
+        vena cava","superior vena cavas"],"offensive":false},"hwi":{"hw":"superior
+        vena cava"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}the
+        branch of the vena cava of a vertebrate that brings blood back from the head
+        and anterior part of the body to the heart"]]}]]]}],"date":"1875","shortdef":["the
+        branch of the vena cava of a vertebrate that brings blood back from the head
+        and anterior part of the body to the heart"]},{"meta":{"id":"Superior, Lake:g","uuid":"09d4fdfa-42eb-4e85-8a3a-dc97341dd8d3","sort":"283249000","src":"collegiate","section":"geog","stems":["Lake
+        Superior","Superior, Lake"],"offensive":false},"hwi":{"hw":"Superior, Lake"},"fl":"geographical
+        name","def":[{"sseq":[[["sense",{"dt":[["text","lake in the U.S. (Minnesota,
+        Wisconsin, and Michigan) and Canada (Ontario) {it}area{\/it} 31,800 square
+        miles (82,362 square kilometers) "],["snote",[["t","Superior is the largest,
+        northernmost, and westernmost of the Great Lakes."]]]]}]]]}],"shortdef":["lake
+        in the U.S. (Minnesota, Wisconsin, and Michigan) and Canada (Ontario) area
+        31,800 square miles (82,362 square kilometers)"]},{"meta":{"id":"highly superior
+        autobiographical memory","uuid":"43e99b6c-e95f-457d-9e41-72acfc0a72e2","sort":"080184325","src":"collegiate","section":"alpha","stems":["highly
+        superior autobiographical memories","highly superior autobiographical memory"],"offensive":false},"hwi":{"hw":"highly
+        superior autobiographical memory"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}the
+        uncommon ability that allows a person to spontaneously recall with great accuracy
+        and detail a vast number of personal events or experiences and their associated
+        dates {bc}{sx|hyperthymesia||} "],["vis",[{"t":"{wi}Highly superior autobiographical
+        memory{\/wi} allows one to recall the day, date and year of any major celebrity
+        death they took note of, to remember what they had for dinner and how the
+        weather was on any given day of any month and year, and to list off the matchups
+        of their favorite sports teams like anyone else could only do by reading off
+        of Wikipedia.","aq":{"auth":"Johnathan Winslow"}},{"t":"People with an extremely
+        rare condition called {ldquo}{wi}highly superior autobiographical memory{\/wi}{rdquo}
+        have the ability to remember every single event in their lives from a certain
+        date in their childhood onward. If you ask them about an event they can remember
+        the exact date, the weather and what they ate for lunch that day\u2014and
+        they can visualize it as vividly as if it happened yesterday.","aq":{"auth":"Zoe
+        Epstein"}}]]]}]]]}],"date":"2011","shortdef":["the uncommon ability that allows
+        a person to spontaneously recall with great accuracy and detail a vast number
+        of personal events or experiences and their associated dates : hyperthymesia"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:56 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/pardoned?key=<COLLEGIATE_THESAURUS_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1270'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"pardoned","uuid":"2ac7ae9c-5b1c-4f5a-9ff5-89ed65cd08ce","src":"coll_thes","section":"alpha","stems":["pardoned"],"syns":[["forgave"],["blinked
+        (at)","brushed (aside or off)","condoned","discounted","disregarded","excused","forgave","glossed
+        (over)","glozed (over)","ignored","overlooked","overpassed","papered over","passed
+        over","remitted","shrugged off","whitewashed","winked (at)"]],"ants":[["resented"]],"offensive":false},"hwi":{"hw":"pardoned"},"fl":"verb","sls":["past
+        tense of {d_link|pardon|pardon}"],"def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","to
+        cease to have feelings of anger or bitterness toward "],["vis",[{"t":"he eventually
+        {it}pardoned{\/it} his sister after she apologized"}]]],"syn_list":[[{"wd":"forgave"}]],"rel_list":[[{"wd":"absolved"},{"wd":"acquitted"},{"wd":"cleared"},{"wd":"exculpated"},{"wd":"exonerated"},{"wd":"vindicated"}],[{"wd":"remitted"},{"wd":"shrived","wvrs":[{"wvl":"or","wva":"shrove"}]}],[{"wd":"condoned"},{"wd":"disregarded"},{"wd":"excused"},{"wd":"ignored"},{"wd":"passed
+        over"},{"wd":"shrugged off"}],[{"wd":"discharged"},{"wd":"liberated"},{"wd":"redeemed"},{"wd":"released"},{"wd":"unburdened"}]],"near_list":[[{"wd":"abhorred"},{"wd":"abominated"},{"wd":"despised"},{"wd":"detested"},{"wd":"disliked"},{"wd":"execrated"},{"wd":"hated"},{"wd":"loathed"}],[{"wd":"avenged"},{"wd":"redressed"},{"wd":"requited"},{"wd":"retaliated"},{"wd":"revenged"}],[{"wd":"disciplined"},{"wd":"penalized"},{"wd":"punished"}]],"ant_list":[[{"wd":"resented"}]]}]],[["sense",{"sn":"2","dt":[["text","to
+        dismiss as of little importance "],["vis",[{"t":"I\u0027m willing to {it}pardon{\/it}
+        a little sloppiness of dress in such a kind and loving person"}]]],"syn_list":[[{"wd":"blinked
+        (at)"},{"wd":"brushed (aside or off)"},{"wd":"condoned"},{"wd":"discounted"},{"wd":"disregarded"},{"wd":"excused"},{"wd":"forgave"},{"wd":"glossed
+        (over)"},{"wd":"glozed (over)"},{"wd":"ignored"},{"wd":"overlooked"},{"wd":"overpassed"},{"wd":"papered
+        over"},{"wd":"passed over"},{"wd":"remitted"},{"wd":"shrugged off"},{"wd":"whitewashed"},{"wd":"winked
+        (at)"}]],"rel_list":[[{"wd":"explained"},{"wd":"justified"},{"wd":"rationalized"}],[{"wd":"absolved"},{"wd":"acquitted"},{"wd":"cleared"},{"wd":"exculpated"},{"wd":"exonerated"},{"wd":"vindicated"}],[{"wd":"waived"},{"wd":"waved
+        (aside or off)"}]],"phrase_list":[[{"wd":"closed one\u0027s eyes to"},{"wd":"forgave
+        and forgot"}]],"near_list":[[{"wd":"heeded"},{"wd":"marked"},{"wd":"minded"},{"wd":"noted"},{"wd":"objected
+        (to)"}]]}]]]}],"shortdef":["to cease to have feelings of anger or bitterness
+        toward","to dismiss as of little importance"]},{"meta":{"id":"pardon","uuid":"a55237df-c637-48d1-b7ab-81eddc3dcb55","src":"coll_thes","section":"alpha","target":{"tuuid":"7e15693b-2866-457f-a3bb-d200dd996e5c","tsrc":"collegiate"},"stems":["pardon","pardoned","pardoning","pardons"],"syns":[["forgive"],["blink
+        (at)","brush (aside or off)","condone","discount","disregard","excuse","forgive","gloss
+        (over)","gloze (over)","ignore","overlook","overpass","paper over","pass over","remit","shrug
+        off","whitewash","wink (at)"]],"ants":[["resent"]],"offensive":false},"hwi":{"hw":"pardon"},"fl":"verb","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","to
+        cease to have feelings of anger or bitterness toward "],["vis",[{"t":"he eventually
+        {it}pardoned{\/it} his sister after she apologized"}]]],"syn_list":[[{"wd":"forgive"}]],"rel_list":[[{"wd":"absolve"},{"wd":"acquit"},{"wd":"clear"},{"wd":"exculpate"},{"wd":"exonerate"},{"wd":"vindicate"}],[{"wd":"remit"},{"wd":"shrive"}],[{"wd":"condone"},{"wd":"disregard"},{"wd":"excuse"},{"wd":"ignore"},{"wd":"pass
+        over"},{"wd":"shrug off"}],[{"wd":"discharge"},{"wd":"liberate"},{"wd":"redeem"},{"wd":"release"},{"wd":"unburden"}]],"near_list":[[{"wd":"abhor"},{"wd":"abominate"},{"wd":"despise"},{"wd":"detest"},{"wd":"dislike"},{"wd":"execrate"},{"wd":"hate"},{"wd":"loathe"}],[{"wd":"avenge"},{"wd":"redress"},{"wd":"requite"},{"wd":"retaliate"},{"wd":"revenge"}],[{"wd":"discipline"},{"wd":"penalize"},{"wd":"punish"}]],"ant_list":[[{"wd":"resent"}]]}]],[["sense",{"sn":"2","dt":[["text","to
+        dismiss as of little importance "],["vis",[{"t":"I\u0027m willing to {it}pardon{\/it}
+        a little sloppiness of dress in such a kind and loving person"}]]],"syn_list":[[{"wd":"blink
+        (at)"},{"wd":"brush (aside or off)"},{"wd":"condone"},{"wd":"discount"},{"wd":"disregard"},{"wd":"excuse"},{"wd":"forgive"},{"wd":"gloss
+        (over)"},{"wd":"gloze (over)"},{"wd":"ignore"},{"wd":"overlook"},{"wd":"overpass"},{"wd":"paper
+        over"},{"wd":"pass over"},{"wd":"remit"},{"wd":"shrug off"},{"wd":"whitewash"},{"wd":"wink
+        (at)"}]],"rel_list":[[{"wd":"explain"},{"wd":"justify"},{"wd":"rationalize"}],[{"wd":"absolve"},{"wd":"acquit"},{"wd":"clear"},{"wd":"exculpate"},{"wd":"exonerate"},{"wd":"vindicate"}],[{"wd":"waive"},{"wd":"wave
+        (aside or off)"}]],"phrase_list":[[{"wd":"close one\u0027s eyes to"},{"wd":"forgive
+        and forget"}]],"near_list":[[{"wd":"heed"},{"wd":"mark"},{"wd":"mind"},{"wd":"note"},{"wd":"object
+        (to)"}]]}]]]}],"shortdef":["to cease to have feelings of anger or bitterness
+        toward","to dismiss as of little importance"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:56 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/collegiate/json/pardoned?key=<COLLEGIATE_DICTIONARY_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1085'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"pardon:2","uuid":"7e15693b-2866-457f-a3bb-d200dd996e5c","sort":"160068700","src":"collegiate","section":"alpha","stems":["pardon","pardoned","pardoning","pardons"],"offensive":false},"hom":2,"hwi":{"hw":"pardon"},"fl":"verb","ins":[{"if":"par*doned"},{"if":"par*don*ing","prs":[{"mw":"\u02c8p\u00e4rd-ni\u014b","sound":{"audio":"pardon02","ref":"c","stat":"1"}},{"mw":"\u02c8p\u00e4r-d\u1d4an-i\u014b"}]}],"def":[{"vd":"transitive
+        verb","sseq":[[["sense",{"sn":"1 a","dt":[["text","{bc}to absolve from the
+        consequences of a fault or crime"]]}],["sense",{"sn":"b","dt":[["text","{bc}to
+        allow (an offense) to pass without punishment {bc}{sx|forgive||}"]]}],["sense",{"sn":"c","dt":[["text","{bc}to
+        relieve of a penalty improperly assessed"]]}]],[["sense",{"sn":"2","dt":[["text","{bc}{sx|tolerate||}"]]}]]]}],"syns":[{"pl":"synonyms","pt":[["text","{sc}excuse{\/sc}
+        {sc}condone{\/sc} {sc}pardon{\/sc} {sc}forgive{\/sc} mean to exact neither
+        punishment nor redress. {sc}excuse{\/sc} may refer to specific acts especially
+        in social or conventional situations or the person responsible for these.
+        "],["vis",[{"t":"{it}excuse{\/it} an interruption"},{"t":"{it}excused{\/it}
+        them for interrupting"}]],["text"," Often the term implies extenuating circumstances.
+        "],["vis",[{"t":"injustice {it}excuses{\/it} strong responses"}]],["text","
+        {sc}condone{\/sc} implies that one overlooks without censure behavior (such
+        as dishonesty or violence) that involves a serious breach of a moral, ethical,
+        or legal code, and the term may refer to the behavior or to the agent responsible
+        for it. "],["vis",[{"t":"a society that {it}condones{\/it} alcohol but not
+        narcotics"}]],["text"," {sc}pardon{\/sc} implies that one remits a penalty
+        due for an admitted or established offense. "],["vis",[{"t":"{it}pardon{\/it}
+        a criminal"}]],["text"," {sc}forgive{\/sc} implies that one gives up all claim
+        to requital and to resentment or vengeful feelings. "],["vis",[{"t":"could
+        not {it}forgive{\/it} their rudeness"}]]]}],"et":[["text","Middle English,
+        from Anglo-French {it}parduner{\/it}, from Late Latin {it}perdonare{\/it}
+        to grant freely, from Latin {it}per-{\/it} thoroughly + {it}donare{\/it} to
+        give {ma}{mat|parboil|}, {mat|donation|}{\/ma}"]],"date":"15th century{ds||1|a|}","shortdef":["to
+        absolve from the consequences of a fault or crime","to allow (an offense)
+        to pass without punishment : forgive","to relieve of a penalty improperly
+        assessed"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:56 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/salmon?key=<COLLEGIATE_THESAURUS_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '113'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '["salon","saloon","saloons","daemon","daimon","gammon","sallow","salons","salvo","salvor","salvos","sermon","summon","psalmody","salesman","salesmen","almoner","calming","salamis","salient"]'
+  recorded_at: Tue, 21 Jun 2022 23:24:56 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/collegiate/json/salmon?key=<COLLEGIATE_DICTIONARY_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1941'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"salmon","uuid":"cb7ebb03-74af-4bd2-8191-5d88cee9dcbf","sort":"190315000","src":"collegiate","section":"alpha","stems":["Atlantic
+        salmon","salmon","salmons"],"offensive":false},"hwi":{"hw":"salm*on","prs":[{"mw":"\u02c8sa-m\u0259n","sound":{"audio":"salmon01","ref":"c","stat":"1"}}]},"fl":"noun","ins":[{"il":"plural","if":"salmon"},{"il":"also","if":"salm*ons"}],"def":[{"sseq":[[["sense",{"sn":"1
+        a","dt":[["text","{bc}a large anadromous {a_link|salmonid} fish ({it}Salmo
+        salar{\/it}) of the North Atlantic noted as a game and food fish "],["ca",{"intro":"called
+        also","cats":[{"cat":"Atlantic salmon"}]}]]}],["sense",{"sn":"b","dt":[["text","{bc}any
+        of various anadromous salmonid fishes other than the salmon"]],"sdsense":{"sd":"especially","dt":[["text","{bc}{sx|pacific
+        salmon||}"]]}}],["sense",{"sn":"c","dt":[["text","{bc}a fish (such as a barramundi)
+        resembling a salmon"]]}]],[["sense",{"sn":"2","dt":[["text","{bc}the variable
+        color of salmon\u0027s flesh averaging a strong yellowish pink"]]}]]]}],"et":[["text","Middle
+        English {it}samon{\/it}, from Anglo-French {it}salmon, samon{\/it}, from Latin
+        {it}salmon-, salmo{\/it}"]],"date":"13th century{ds||1|a|}","shortdef":["a
+        large anadromous salmonid fish (Salmo salar) of the North Atlantic noted as
+        a game and food fish \u2014called also Atlantic salmon","any of various anadromous
+        salmonid fishes other than the salmon; especially : pacific salmon","a fish
+        (such as a barramundi) resembling a salmon"]},{"meta":{"id":"Salmon:g","uuid":"a5f856eb-b391-47c0-a661-6436e1d1581a","sort":"282519000","src":"collegiate","section":"geog","stems":["Salmon"],"offensive":false},"hwi":{"hw":"Salm*on","prs":[{"mw":"\u02c8sa-m\u0259n","sound":{"audio":"ggsalm01","ref":"c","stat":"1"}}]},"fl":"geographical
+        name","def":[{"sseq":[[["sense",{"dt":[["text","river 420 miles (676 kilometers)
+        long in central Idaho flowing into the Snake River"]]}]]]}],"shortdef":["river
+        420 miles (676 kilometers) long in central Idaho flowing into the Snake River"]},{"meta":{"id":"salmon
+        pink","uuid":"0cd33845-1c8d-446b-8908-a83389918e7e","sort":"190321000","src":"collegiate","section":"alpha","stems":["salmon
+        pink","salmon pinks"],"offensive":false},"hwi":{"hw":"salmon pink"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a
+        strong yellowish pink"]]}]]]}],"date":"1882","shortdef":["a strong yellowish
+        pink"]},{"meta":{"id":"Salmon River Mountains:g","uuid":"2f208a45-3e68-48b1-b0b7-53cc0b7b483a","sort":"282520000","src":"collegiate","section":"geog","stems":["Salmon
+        River Mountains"],"offensive":false},"hwi":{"hw":"Salmon River Mountains"},"fl":"geographical
+        name","def":[{"sseq":[[["sense",{"dt":[["text","mountains in central Idaho
+        with many peaks over 9000 feet (2743 meters) high"]]}]]]}],"shortdef":["mountains
+        in central Idaho with many peaks over 9000 feet (2743 meters) high"]},{"meta":{"id":"Atlantic
+        salmon","uuid":"12ee4593-c04b-4ecc-9a25-806df767ad7e","sort":"014523000","src":"collegiate","section":"alpha","stems":["Atlantic
+        salmon","Atlantic salmons"],"offensive":false},"hwi":{"hw":"Atlantic salmon"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}{sx|salmon||1a}"]]}]]]}],"date":"1813","shortdef":["salmon"]},{"meta":{"id":"black
+        salmon","uuid":"0a75d3f5-b816-430a-ab01-da53aa2fb41a","sort":"020261750","src":"collegiate","section":"alpha","stems":["black
+        salmon","black salmons"],"offensive":false},"hwi":{"hw":"black salmon"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}{sx|chinook
+        salmon||}"]]}]]]}],"date":"1873","shortdef":["chinook salmon"]},{"meta":{"id":"Chinook
+        salmon","uuid":"1fa80af4-81c1-4a08-9f0b-578454e0eabe","sort":"032660000","src":"collegiate","section":"alpha","stems":["Chinook","Chinook
+        salmon","Chinooks","chinook","chinook jargon","chinook salmon","chinook salmons","chinookan","chinooks","king
+        salmon"],"offensive":false},"hwi":{"hw":"Chinook salmon"},"vrs":[{"vl":"or
+        less commonly","va":"chinook salmon"},{"vl":"or","va":"Chinook"},{"vl":"or","va":"chinook"}],"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a
+        large, usually red-fleshed, commercially important salmon ({it}Oncorhynchus
+        tshawytscha{\/it}) of the northern Pacific Ocean that is typically bluish-green
+        above with silvery sides, has a dark mouth with black gums, and attains an
+        average weight of about 30 to 40 pounds (13.5 to 18 kilograms) but may sometimes
+        exceed 120 pounds (54 kilograms) "],["ca",{"intro":"called also","cats":[{"cat":"black
+        salmon"},{"cat":"king salmon"}]}]]}]]]}],"art":{"artid":"chin_sa","capt":"Chinook
+        salmon"},"date":"1851","shortdef":["a large, usually red-fleshed, commercially
+        important salmon (Oncorhynchus tshawytscha) of the northern Pacific Ocean
+        that is typically bluish-green above with silvery sides, has a dark mouth
+        with black gums, and attains an average weight of about 30 to 40 pounds (13.5
+        to 18 kilograms) but may sometimes exceed 120 pounds (54 kilograms) \u2014called
+        also black salmon, king salmon"]},{"meta":{"id":"chum salmon","uuid":"a0d372d5-dd32-419f-b79f-5160e5f296c0","sort":"033065000","src":"collegiate","section":"alpha","stems":["chum","chum
+        salmon","chum salmons","chums","chumship","chumships"],"offensive":false},"hwi":{"hw":"chum
+        salmon"},"vrs":[{"vl":"or less commonly","va":"chum"}],"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a
+        metallic bluish green salmon ({it}Oncorhynchus keta{\/it}) of the northern
+        Pacific Ocean and Arctic Ocean that may reach a length of about 3.5 feet (1
+        meter) but is typically smaller "],["snote",[["t","Upon entering fresh water
+        to spawn, the male chum salmon develops large, sharp teeth and becomes dark
+        green to brown with reddish-purple vertical stripes."]]]]}]]]}],"et":[["text","{et_link|chum:5|chum:5}"]],"date":"1907","shortdef":["a
+        metallic bluish green salmon (Oncorhynchus keta) of the northern Pacific Ocean
+        and Arctic Ocean that may reach a length of about 3.5 feet (1 meter) but is
+        typically smaller"]},{"meta":{"id":"jack salmon","uuid":"d3d51ea4-f587-418d-a756-feb55f6795dc","sort":"100005100","src":"collegiate","section":"alpha","stems":["jack
+        salmon","jack salmons"],"offensive":false},"hwi":{"hw":"jack salmon"},"fl":"noun","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","{bc}{sx|walleye||3}"]]}]],[["sense",{"sn":"2
+        a","dt":[["text","{bc}{sx|grilse||}"]]}],["sense",{"sn":"b","dt":[["text","{bc}{sx|coho||}"]]}]]]}],"date":"1850{ds||1||}","shortdef":["walleye","grilse","coho"]},{"meta":{"id":"king
+        salmon","uuid":"9c8b42d9-a92d-4900-ae11-25f5bd6898cd","sort":"110049200","src":"collegiate","section":"alpha","stems":["king
+        salmon","king salmons"],"offensive":false},"hwi":{"hw":"king salmon"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}{sx|chinook
+        salmon||}"]]}]]]}],"date":"1871","shortdef":["chinook salmon"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:56 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/fungi?key=<COLLEGIATE_THESAURUS_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '91'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '["fuggy","fungible","funny","bung","funned","bungs","funner","dung","funk","dungs","funks","dungy","funky","flung","funs","fudge","funnies","fun","fund","funds"]'
+  recorded_at: Tue, 21 Jun 2022 23:24:56 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/collegiate/json/fungi?key=<COLLEGIATE_DICTIONARY_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2164'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"fungi","uuid":"fb106d74-bb56-4096-a6ff-104c078bbe5f","sort":"063686500","src":"collegiate","section":"alpha","stems":["fungi"],"offensive":false},"hwi":{"hw":"fungi"},"cxs":[{"cxtis":[{"cxl":"plural
+        of","cxt":"fungus"}]}],"shortdef":[]},{"meta":{"id":"fungi-","uuid":"0bb785c2-096f-41f2-805d-a24aeb7d0a4a","sort":"063687000","src":"collegiate","section":"alpha","stems":["fungi-"],"offensive":false},"hwi":{"hw":"fungi-"},"fl":"combining
+        form","def":[{"sseq":[[["sense",{"dt":[["text","{bc}fungus "],["vis",[{"t":"{it}fungi{\/it}form"}]]]}]]]}],"et":[["text","Latin
+        {it}fungus{\/it}"]],"shortdef":["fungus"]},{"meta":{"id":"fungus","uuid":"f81d4703-b543-47ed-a7f2-764386d8af82","sort":"063698000","src":"collegiate","section":"alpha","stems":["fungi","fungus","funguses"],"offensive":false},"hwi":{"hw":"fun*gus","prs":[{"mw":"\u02c8f\u0259\u014b-g\u0259s","sound":{"audio":"fungou01","ref":"c","stat":"1"}}]},"fl":"noun","ins":[{"il":"plural","if":"fun*gi","prs":[{"mw":"\u02c8f\u0259n-\u02ccj\u012b","sound":{"audio":"fungus03","ref":"c","stat":"1"}},{"mw":"\u02c8f\u0259\u014b-\u02ccg\u012b","sound":{"audio":"fungus02","ref":"c","stat":"1"}}]},{"il":"also","if":"fun*gus*es","prs":[{"mw":"\u02c8f\u0259\u014b-g\u0259-s\u0259z","sound":{"audio":"fungus04","ref":"c","stat":"1"}}]}],"lbs":["often
+        attributive"],"def":[{"sseq":[[["sense",{"dt":[["text","{bc}any of a kingdom
+        (Fungi) of saprophytic and parasitic spore-producing eukaryotic typically
+        filamentous organisms formerly classified as plants that lack chlorophyll
+        and include molds, rusts, mildews, smuts, mushrooms, and yeasts"]]}]]]}],"et":[["text","Latin"]],"date":"1527","shortdef":["any
+        of a kingdom (Fungi) of saprophytic and parasitic spore-producing eukaryotic
+        typically filamentous organisms formerly classified as plants that lack chlorophyll
+        and include molds, rusts, mildews, smuts, mushrooms, and yeasts"]},{"meta":{"id":"bracket
+        fungus","uuid":"c00ffa70-1f27-4168-a9f4-350ec83c4259","sort":"020389400","src":"collegiate","section":"alpha","stems":["bracket
+        fungi","bracket fungus","bracket funguses"],"offensive":false},"hwi":{"hw":"bracket
+        fungus"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a basidiomycete
+        that forms shelflike sporophores"]]}]]]}],"date":"1896","shortdef":["a basidiomycete
+        that forms shelflike sporophores"]},{"meta":{"id":"chytrid","uuid":"8ad2a302-17cb-4469-bc72-c9278dd44979","sort":"033111500","src":"collegiate","section":"alpha","stems":["chytrid","chytrid
+        fungi","chytrid fungus","chytrid funguses","chytrids"],"offensive":false},"hwi":{"hw":"chy*trid","prs":[{"mw":"\u02c8k\u012b-tr\u0259d","sound":{"audio":"chytrid_1","ref":"u","stat":"1"}},{"mw":"\u02c8ki-"}]},"vrs":[{"vl":"or","va":"chytrid
+        fungus"}],"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}any simple,
+        microscopic, aquatic fungus (phylum Chytridiomycota) that does not typically
+        form {d_link|mycelium|mycelium}, that bears motile spores with a single posterior
+        flagellum, and that is either saprophytic on decaying organic matter or parasitic
+        especially on algae, higher plants, and the skin of amphibians (as in {d_link|chytridiomycosis|chytridiomycosis})"]]}]]]}],"et":[["text","probably
+        taken as singular of German {it}Chytriden{\/it}, variant of {it}Chytridien{\/it},
+        plural of {it}Chytridium,{\/it} a fungus genus, borrowed from New Latin, borrowed
+        from Greek {it}chytr\u00eddion{\/it} \u0022small pot, cup\u0022 (alluding
+        to the pot-like sporangium), diminutive of {it}ch\u00fdtra{\/it} \u0022earthenware
+        pot,\u0022 from {it}chy-{\/it} (zero-grade stem of {it}ch\u00e9\u014d, che\u00een{\/it}
+        \u0022to pour,\u0022 going back to Indo-European {it}*g\u0301heu\u032f-{\/it})
+        + {it}-tr\u0101,{\/it} suffix of instruments {ma}{mat|found:5|}{\/ma}"]],"date":"1903","shortdef":["any
+        simple, microscopic, aquatic fungus (phylum Chytridiomycota) that does not
+        typically form mycelium, that bears motile spores with a single posterior
+        flagellum, and that is either saprophytic on decaying organic matter or parasitic
+        especially on algae, higher plants, and the skin of amphibians (as in chytridiomycosis)"]},{"meta":{"id":"club
+        fungus","uuid":"cc124aff-f974-43c8-bdb1-3bbfae3c3cbf","sort":"033858000","src":"collegiate","section":"alpha","stems":["club
+        fungi","club fungus","club funguses"],"offensive":false},"hwi":{"hw":"club
+        fungus"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}any of
+        various basidiomycetes (family Clavariaceae) with a simple or branched often
+        club-shaped sporophore"]]}]]]}],"date":"1899","shortdef":["any of various
+        basidiomycetes (family Clavariaceae) with a simple or branched often club-shaped
+        sporophore"]},{"meta":{"id":"cup fungus","uuid":"12b1c1a8-b45d-489f-8a35-6db0d9a9863e","sort":"035774400","src":"collegiate","section":"alpha","stems":["cup
+        fungi","cup fungus","cup funguses"],"offensive":false},"hwi":{"hw":"cup fungus"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}any
+        of an order (Pezizales) of mostly saprophytic ascomycetous fungi with a fleshy
+        or horny apothecium that is often colored and typically shaped like a cup,
+        saucer, or disk"]]}]]]}],"date":"circa 1905","shortdef":["any of an order
+        (Pezizales) of mostly saprophytic ascomycetous fungi with a fleshy or horny
+        apothecium that is often colored and typically shaped like a cup, saucer,
+        or disk"]},{"meta":{"id":"imperfect fungus","uuid":"b949a08c-691d-45f0-86c6-07162f1bd664","sort":"090615000","src":"collegiate","section":"alpha","stems":["imperfect
+        fungi","imperfect fungus","imperfect funguses"],"offensive":false},"hwi":{"hw":"imperfect
+        fungus"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}any of
+        a large and varied group of {d_link|fungi|fungus} that are only known to reproduce
+        by the production of asexual spores ({d_link|conidia|conidium}) and in which
+        a sexual form of reproduction is lacking or has not been scientifically observed
+        "],["snote",[["t","Imperfect fungi are often considered to comprise a taxonomic
+        division (Deuteromycota) or class (Deuteromycetes)."]]]]}]]]}],"date":"1803","shortdef":["any
+        of a large and varied group of fungi that are only known to reproduce by the
+        production of asexual spores (conidia) and in which a sexual form of reproduction
+        is lacking or has not been scientifically observed"]},{"meta":{"id":"lower
+        fungus","uuid":"ff8b114a-3b46-4b54-b6fb-634ca5b1bdbf","sort":"120268700","src":"collegiate","section":"alpha","stems":["lower
+        fungi","lower fungus","lower funguses"],"offensive":false},"hwi":{"hw":"lower
+        fungus"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a fungus
+        with hyphae absent or rudimentary and nonseptate"]]}]]]}],"date":"1821","shortdef":["a
+        fungus with hyphae absent or rudimentary and nonseptate"]},{"meta":{"id":"pore
+        fungus","uuid":"0c0b7235-db62-49a7-90b0-54ee7eafedca","sort":"165932000","src":"collegiate","section":"alpha","stems":["pore
+        fungi","pore fungus","pore funguses"],"offensive":false},"hwi":{"hw":"pore
+        fungus"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a fungus
+        (family Boletaceae or Polyporaceae) having the spore-bearing surface within
+        tubes or pores"]]}]]]}],"date":"1922","shortdef":["a fungus (family Boletaceae
+        or Polyporaceae) having the spore-bearing surface within tubes or pores"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:56 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/ferris_wheel?key=<COLLEGIATE_THESAURUS_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '44'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: UTF-8
+      string: '["big wheel","ferried","ferries","pinwheel"]'
+  recorded_at: Tue, 21 Jun 2022 23:24:57 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/collegiate/json/ferris_wheel?key=<COLLEGIATE_DICTIONARY_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '413'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"Ferris wheel","uuid":"6004760b-44ca-4eda-849a-3865d3e1fb2a","sort":"060884000","src":"collegiate","section":"alpha","stems":["Ferris
+        wheel","Ferris wheels","ferris wheels"],"offensive":false},"hwi":{"hw":"Fer*ris
+        wheel","prs":[{"mw":"\u02c8fer-\u0259s-","sound":{"audio":"ferris01","ref":"c","stat":"1"}},{"mw":"\u02c8fe-r\u0259s-"}]},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}an
+        amusement device consisting of a large upright power-driven wheel carrying
+        seats that remain horizontal around its rim"]]}]]]}],"et":[["text","G. W.
+        G. {it}Ferris{\/it} \u20201896 American engineer"]],"date":"1892","shortdef":["an
+        amusement device consisting of a large upright power-driven wheel carrying
+        seats that remain horizontal around its rim"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:57 GMT
+recorded_with: VCR 6.1.0

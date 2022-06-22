@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/affect?key=<COLLEGIATE_THESAURUS_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1593'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"affect:1","uuid":"a7c65c54-3bb4-4afd-8db3-3e0e6586eade","src":"coll_thes","section":"alpha","target":{"tuuid":"bf6a5469-7543-4c5b-89c0-94b57680236b","tsrc":"collegiate"},"stems":["affect","affectabilities","affectability","affectable","affected","affecting","affects"],"syns":[["impact","impress","influence","move","reach","strike","sway","tell
+        (on)","touch"],["concern","involve","touch"]],"ants":[],"offensive":false},"hom":1,"hwi":{"hw":"affect"},"fl":"verb","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","to
+        act upon (a person or a person\u0027s feelings) so as to cause a response
+        "],["vis",[{"t":"their son claims that scary movies don\u0027t {it}affect{\/it}
+        him in the least"}]]],"syn_list":[[{"wd":"impact"},{"wd":"impress"},{"wd":"influence"},{"wd":"move"},{"wd":"reach"},{"wd":"strike"},{"wd":"sway"},{"wd":"tell
+        (on)"},{"wd":"touch"}]],"rel_list":[[{"wd":"carry away"},{"wd":"dazzle"},{"wd":"enrapture"},{"wd":"entrance"},{"wd":"enthrall","wvrs":[{"wvl":"or","wva":"enthral"}]},{"wd":"ravish"},{"wd":"transport"}],[{"wd":"bias"},{"wd":"color"}],[{"wd":"inspire"},{"wd":"stir"}],[{"wd":"engage"},{"wd":"interest"},{"wd":"involve"},{"wd":"penetrate"},{"wd":"pierce"}],[{"wd":"afflict"},{"wd":"agitate"},{"wd":"bother"},{"wd":"concern"},{"wd":"discomfort"},{"wd":"discompose"},{"wd":"disquiet"},{"wd":"distress"},{"wd":"disturb"},{"wd":"fluster"},{"wd":"harass"},{"wd":"harry"},{"wd":"perturb"},{"wd":"pester"},{"wd":"plague"},{"wd":"smite"},{"wd":"strain"},{"wd":"stress"},{"wd":"trouble"},{"wd":"try"},{"wd":"upset"},{"wd":"worry"},{"wd":"wring"}],[{"wd":"allure"},{"wd":"attract"},{"wd":"bewitch"},{"wd":"captivate"},{"wd":"charm"},{"wd":"enchant"},{"wd":"fascinate"}]],"phrase_list":[[{"wd":"get
+        to"}]],"near_list":[[{"wd":"bore"},{"wd":"jade"},{"wd":"pall"},{"wd":"tire"},{"wd":"weary"}],[{"wd":"underwhelm"}]]}]],[["sense",{"sn":"2","dt":[["text","to
+        be the business or affair of "],["vis",[{"t":"fortunately, hurricane season
+        doesn\u0027t {it}affect{\/it} the West Coast"}]]],"syn_list":[[{"wd":"concern"},{"wd":"involve"},{"wd":"touch"}]],"rel_list":[[{"wd":"appertain
+        (to)"},{"wd":"apply (to)"},{"wd":"bear (on)"},{"wd":"pertain (to)"},{"wd":"refer
+        (to)"},{"wd":"relate (to)"}],[{"wd":"embroil"},{"wd":"ensnare"},{"wd":"entangle"},{"wd":"implicate"}]]}]]]}],"shortdef":["to
+        act upon (a person or a person\u0027s feelings) so as to cause a response","to
+        be the business or affair of"]},{"meta":{"id":"affect:2","uuid":"5989338e-2f0c-4c28-947f-f15f2c018ca9","src":"coll_thes","section":"alpha","target":{"tuuid":"dcac4414-b7b1-45ea-a830-fda82bd8b750","tsrc":"collegiate"},"stems":["affect","affectabilities","affectability","affectable","affected","affecting","affects"],"syns":[["act","assume","bluff","counterfeit","dissemble","fake","feign","pass
+        (for)","pretend","profess","put on","sham","simulate"],["frequent","habituate","hang
+        (at)","haunt","resort (to)","visit"]],"ants":[["avoid","shun"]],"offensive":false},"hom":2,"hwi":{"hw":"affect"},"fl":"verb","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","to
+        present a false appearance of "],["vis",[{"t":"she {it}affected{\/it} complete
+        unawareness that we were talking about her, though she must have overheard"}]]],"syn_list":[[{"wd":"act"},{"wd":"assume"},{"wd":"bluff"},{"wd":"counterfeit"},{"wd":"dissemble"},{"wd":"fake"},{"wd":"feign"},{"wd":"pass
+        (for)"},{"wd":"pretend"},{"wd":"profess"},{"wd":"put on"},{"wd":"sham"},{"wd":"simulate"}]],"rel_list":[[{"wd":"dissimulate"},{"wd":"impersonate"},{"wd":"let
+        on"},{"wd":"masquerade"},{"wd":"play"},{"wd":"playact"},{"wd":"pose"}],[{"wd":"forge"},{"wd":"imitate"}],[{"wd":"camouflage"},{"wd":"conceal"},{"wd":"disguise"},{"wd":"mask"}],[{"wd":"feint"}],[{"wd":"malinger"}]],"phrase_list":[[{"wd":"make
+        believe"}]]}]],[["sense",{"sn":"2","dt":[["text","to go to or spend time in
+        often "],["vis",[{"t":"a power couple known to {it}affect{\/it} all the fancy
+        parties in town"}]]],"syn_list":[[{"wd":"frequent"},{"wd":"habituate"},{"wd":"hang
+        (at)"},{"wd":"haunt"},{"wd":"resort (to)"},{"wd":"visit"}]],"rel_list":[[{"wd":"patronize"}],[{"wd":"attend"},{"wd":"take
+        in"}],[{"wd":"infest"},{"wd":"invade"},{"wd":"overrun"},{"wd":"swarm"}],[{"wd":"call
+        (on or upon)"},{"wd":"drop by"},{"wd":"drop in"},{"wd":"pop (in)"},{"wd":"run
+        (in)"},{"wd":"stop (in or by)"}],[{"wd":"camp (out in)"},{"wd":"sojourn (at)"},{"wd":"stay
+        (at)"},{"wd":"stop (over)"},{"wd":"tarry (in)"}]],"near_list":[[{"wd":"dodge"},{"wd":"duck"},{"wd":"elude"},{"wd":"escape"},{"wd":"eschew"},{"wd":"evade"},{"wd":"shake"}]],"ant_list":[[{"wd":"avoid"},{"wd":"shun"}]]}]]]}],"shortdef":["to
+        present a false appearance of","to go to or spend time in often"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:58 GMT
+recorded_with: VCR 6.1.0

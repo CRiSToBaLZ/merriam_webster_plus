@@ -1,0 +1,4 @@
+require "merriam_webster_plus/dictionary_plus"
+
+puts MerriamWebsterPlus::DictionaryPlus.new(word: ARGV[0]).primary_entry.to_yaml
+puts

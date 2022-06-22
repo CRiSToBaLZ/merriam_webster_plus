@@ -1,0 +1,21 @@
+name: Ruby
+
+on: [push,pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      COLLEGIATE_DICTIONARY_API_KEY: ${{ secrets.COLLEGIATE_DICTIONARY_API_KEY }}
+      COLLEGIATE_THESAURUS_API_KEY: ${{ secrets.COLLEGIATE_THESAURUS_API_KEY }}
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.0.0
+    - name: Run the default task
+      run: |
+        gem install bundler -v 2.2.3
+        bundle install
+        bundle exec rake

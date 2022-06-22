@@ -1,0 +1,157 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/beach?key=<COLLEGIATE_THESAURUS_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '824'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"beach","uuid":"3d47a7df-27cb-48ef-9519-d378270d0900","src":"coll_thes","section":"alpha","target":{"tuuid":"c60241f6-5c5c-4b82-8ab3-d3b16a18cd5d","tsrc":"collegiate"},"stems":["beach","beaches"],"syns":[["beachfront","sand(s)","strand"]],"ants":[],"offensive":false},"hwi":{"hw":"beach"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","the
+        usually sandy or gravelly land bordering a body of water "],["vis",[{"t":"she
+        loves walking along the {it}beach{\/it}, looking for shells that the waves
+        cast up"}]]],"syn_list":[[{"wd":"beachfront"},{"wd":"sand(s)"},{"wd":"strand"}]],"rel_list":[[{"wd":"seaboard"},{"wd":"seacoast"},{"wd":"seashore"},{"wd":"seaside"}],[{"wd":"coast"},{"wd":"coastland"},{"wd":"coastline"},{"wd":"shore"},{"wd":"shoreline"}],[{"wd":"oceanfront"},{"wd":"shorefront"},{"wd":"waterfront"}],[{"wd":"bank"},{"wd":"riverbank"},{"wd":"riverfront"},{"wd":"riverside"}],[{"wd":"esplanade"}],[{"wd":"littoral"}],[{"wd":"lido"},{"wd":"plage"}]]}]]]}],"shortdef":["the
+        usually sandy or gravelly land bordering a body of water"]},{"meta":{"id":"beach","uuid":"0446fe49-c252-4e97-a014-c9f9eedf2d22","src":"CTcompile","section":"alpha","stems":["beach"],"syns":[["ground","berth","moor","tie
+        up","harbor","anchor","dock","land","arrive","reach","show up","turn up","debark","disembark"],["shipwreck","strand","wreck","scuttle","founder"]],"ants":[["embark","launch","sail"],["recover","salvage"]],"offensive":false},"hwi":{"hw":"beach"},"fl":"verb","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","as
+        in {it}ground{\/it}"]],"sim_list":[[{"wd":"ground"}],[{"wd":"berth"},{"wd":"moor"},{"wd":"tie
+        up"}],[{"wd":"harbor"}],[{"wd":"anchor"},{"wd":"dock"},{"wd":"land"}],[{"wd":"arrive"},{"wd":"reach"},{"wd":"show
+        up"},{"wd":"turn up"}],[{"wd":"debark"},{"wd":"disembark"}]],"opp_list":[[{"wd":"embark"},{"wd":"launch"},{"wd":"sail"}]]}]],[["sense",{"sn":"2","dt":[["text","as
+        in {it}wreck{\/it}, {it}strand{\/it}"]],"sim_list":[[{"wd":"shipwreck"},{"wd":"strand"},{"wd":"wreck"}],[{"wd":"scuttle"}],[{"wd":"founder"}]],"opp_list":[[{"wd":"recover"},{"wd":"salvage"}]]}]]]}],"shortdef":["as
+        in ground","as in wreck, strand"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:58 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/collegiate/json/beach?key=<COLLEGIATE_DICTIONARY_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2150'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"beach:1","uuid":"c60241f6-5c5c-4b82-8ab3-d3b16a18cd5d","sort":"020110000","src":"collegiate","section":"alpha","stems":["beach","beaches"],"offensive":false},"hom":1,"hwi":{"hw":"beach","prs":[{"mw":"\u02c8b\u0113ch","sound":{"audio":"beach001","ref":"c","stat":"1"}}]},"fl":"noun","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","{bc}shore
+        pebbles {bc}{sx|shingle||}"]]}]],[["sense",{"sn":"2 a","dt":[["text","{bc}a
+        shore of a body of water covered by sand, gravel, or larger rock fragments"]]}],["sense",{"sn":"b","dt":[["text","{bc}a
+        seashore area"]]}]]]}],"et":[["text","origin unknown"]],"date":"circa 1535{ds||1||}","shortdef":["shore
+        pebbles : shingle","a shore of a body of water covered by sand, gravel, or
+        larger rock fragments","a seashore area"]},{"meta":{"id":"beach:2","uuid":"3a66b67e-5056-41da-aeaf-959ccc22df94","sort":"020110100","src":"collegiate","section":"alpha","stems":["beach","beached","beaches","beaching"],"offensive":false},"hom":2,"hwi":{"hw":"beach"},"fl":"verb","ins":[{"if":"beached"},{"if":"beach*ing"},{"if":"beach*es"}],"def":[{"vd":"transitive
+        verb","sseq":[[["sense",{"sn":"1","dt":[["text","{bc}to run or drive ashore
+        "],["vis",[{"t":"{wi}beaching{\/wi} the landing craft in the assault"},{"t":"The
+        storm damaged and {wi}beached{\/wi} half the fleet."}]]]}]],[["sense",{"sn":"2","dt":[["text","{bc}to
+        strand on or as if on a beach "],["vis",[{"t":"a {wi}beached{\/wi} shark"}]]]}]]]}],"et":[["text","verbal
+        derivative of {et_link|beach:1|beach:1}"]],"date":"1799{ds||1||}","shortdef":["to
+        run or drive ashore","to strand on or as if on a beach"]},{"meta":{"id":"beach
+        ball","uuid":"d7d96521-d7b8-4f5b-8b9d-774197ef1879","sort":"020110200","src":"collegiate","section":"alpha","stems":["beach
+        ball","beach balls"],"offensive":false},"hwi":{"hw":"beach ball"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a
+        large inflated ball for use at the beach"]]}]]]}],"date":"1921","shortdef":["a
+        large inflated ball for use at the beach"]},{"meta":{"id":"beach buggy","uuid":"af4057be-9b18-4480-bf98-a9099502a052","sort":"020110400","src":"collegiate","section":"alpha","stems":["beach
+        buggies","beach buggy"],"offensive":false},"hwi":{"hw":"beach buggy"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}{sx|dune
+        buggy||}"]]}]]]}],"date":"1943","shortdef":["dune buggy"]},{"meta":{"id":"beach
+        cruiser","uuid":"61e123eb-2a6f-4d81-b276-4927e10300d8","sort":"020110550","src":"collegiate","section":"alpha","stems":["beach
+        cruiser","beach cruisers"],"offensive":false},"hwi":{"hw":"beach cruiser"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a
+        usually single-speed bicycle that is typically equipped with {d_link|balloon
+        tires|balloon tire} and is designed to be ridden in an upright seating position
+        "],["vis",[{"t":"He was 6\u00272\u0022 and 300 pounds as a sophomore at Morse
+        High in San Diego, and he was riding his {wi}beach cruiser{\/wi} home from
+        band practice one day, his trumpet case balancing on the handlebars, when
+        the football coach stopped him and said, \u0022You know, you really ought
+        to try football.\u0022","aq":{"auth":"Tim Keown"}}]],["ca",{"intro":"called
+        also","cats":[{"cat":"cruiser"}]}]]}]]]}],"date":"1977","shortdef":["a usually
+        single-speed bicycle that is typically equipped with balloon tires and is
+        designed to be ridden in an upright seating position \u2014called also cruiser"]},{"meta":{"id":"beach
+        flea","uuid":"1ee5cac7-243a-4970-963e-bcdb33a3d22f","sort":"020110600","src":"collegiate","section":"alpha","stems":["beach
+        flea","beach fleas","beach hopper","beach hoppers"],"offensive":false},"hwi":{"hw":"beach
+        flea"},"vrs":[{"vl":"or","va":"beach hopper"}],"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}any
+        of various {d_link|amphipod|amphipod} crustaceans (family Talitridae) found
+        on ocean beaches that feed on decaying organic matter, typically burrow into
+        the sand during the day, and are capable of leaping like fleas {bc}{sx|sand
+        flea||2} "],["vis",[{"t":"You know those tiny {wi}beach fleas{\/wi} that are
+        so small they\u0027re difficult to spot among the grains of sand?","aq":{"source":"{it}The
+        Wall Street Journal{\/it}"}}]]]}]]]}],"date":"1835","shortdef":["any of various
+        amphipod crustaceans (family Talitridae) found on ocean beaches that feed
+        on decaying organic matter, typically burrow into the sand during the day,
+        and are capable of leaping like fleas : sand flea"]},{"meta":{"id":"beach
+        grass","uuid":"d19836bc-102a-41e8-a698-139cfce6ef88","sort":"020110900","src":"collegiate","section":"alpha","stems":["beach
+        grass","beach grasses"],"offensive":false},"hwi":{"hw":"beach grass"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}any
+        of several tough strongly rooted grasses that grow on exposed sandy shores"]],"sdsense":{"sd":"especially","dt":[["text","{bc}any
+        of a genus ({it}Ammophila{\/it}) of rhizomatous perennials widely planted
+        to bind sandy slopes"]]}}]]]}],"date":"1681","shortdef":["any of several tough
+        strongly rooted grasses that grow on exposed sandy shores; especially : any
+        of a genus (Ammophila) of rhizomatous perennials widely planted to bind sandy
+        slopes"]},{"meta":{"id":"beach pea","uuid":"1b370434-6160-40e9-b186-dc0876c998a1","sort":"020111100","src":"collegiate","section":"alpha","stems":["beach
+        pea","beach peas"],"offensive":false},"hwi":{"hw":"beach pea"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a
+        wild pea ({it}Lathyrus japonicus{\/it} synonym {it}L. maritimus{\/it}) having
+        tough roots and purple flowers that is found along sandy shores"]]}]]]}],"date":"1795","shortdef":["a
+        wild pea (Lathyrus japonicus synonym L. maritimus) having tough roots and
+        purple flowers that is found along sandy shores"]},{"meta":{"id":"beach plum","uuid":"53e78ff4-771a-44d8-ac0c-82677d8a1333","sort":"020111200","src":"collegiate","section":"alpha","stems":["beach
+        plum","beach plums"],"offensive":false},"hwi":{"hw":"beach plum"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a
+        shrubby plum ({it}Prunus maritima{\/it}) having white flowers and growing
+        chiefly along the northeastern coast of North America"]],"sdsense":{"sd":"also","dt":[["text","{bc}its
+        edible usually dark purple fruit that is used especially in preserves"]]}}]]]}],"date":"1741","shortdef":["a
+        shrubby plum (Prunus maritima) having white flowers and growing chiefly along
+        the northeastern coast of North America; also : its edible usually dark purple
+        fruit that is used especially in preserves"]},{"meta":{"id":"beach towel","uuid":"fd985173-8983-43e8-a2bd-5796b80b833d","sort":"020111400","src":"collegiate","section":"alpha","stems":["beach
+        towel"],"offensive":false},"hwi":{"hw":"beach towel"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a
+        very large usually brightly colored towel designed for use at the beach"]]}]]]}],"date":"1919","shortdef":["a
+        very large usually brightly colored towel designed for use at the beach"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:58 GMT
+recorded_with: VCR 6.1.0

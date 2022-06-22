@@ -1,0 +1,277 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/affect?key=<COLLEGIATE_THESAURUS_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1593'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"affect:1","uuid":"a7c65c54-3bb4-4afd-8db3-3e0e6586eade","src":"coll_thes","section":"alpha","target":{"tuuid":"bf6a5469-7543-4c5b-89c0-94b57680236b","tsrc":"collegiate"},"stems":["affect","affectabilities","affectability","affectable","affected","affecting","affects"],"syns":[["impact","impress","influence","move","reach","strike","sway","tell
+        (on)","touch"],["concern","involve","touch"]],"ants":[],"offensive":false},"hom":1,"hwi":{"hw":"affect"},"fl":"verb","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","to
+        act upon (a person or a person\u0027s feelings) so as to cause a response
+        "],["vis",[{"t":"their son claims that scary movies don\u0027t {it}affect{\/it}
+        him in the least"}]]],"syn_list":[[{"wd":"impact"},{"wd":"impress"},{"wd":"influence"},{"wd":"move"},{"wd":"reach"},{"wd":"strike"},{"wd":"sway"},{"wd":"tell
+        (on)"},{"wd":"touch"}]],"rel_list":[[{"wd":"carry away"},{"wd":"dazzle"},{"wd":"enrapture"},{"wd":"entrance"},{"wd":"enthrall","wvrs":[{"wvl":"or","wva":"enthral"}]},{"wd":"ravish"},{"wd":"transport"}],[{"wd":"bias"},{"wd":"color"}],[{"wd":"inspire"},{"wd":"stir"}],[{"wd":"engage"},{"wd":"interest"},{"wd":"involve"},{"wd":"penetrate"},{"wd":"pierce"}],[{"wd":"afflict"},{"wd":"agitate"},{"wd":"bother"},{"wd":"concern"},{"wd":"discomfort"},{"wd":"discompose"},{"wd":"disquiet"},{"wd":"distress"},{"wd":"disturb"},{"wd":"fluster"},{"wd":"harass"},{"wd":"harry"},{"wd":"perturb"},{"wd":"pester"},{"wd":"plague"},{"wd":"smite"},{"wd":"strain"},{"wd":"stress"},{"wd":"trouble"},{"wd":"try"},{"wd":"upset"},{"wd":"worry"},{"wd":"wring"}],[{"wd":"allure"},{"wd":"attract"},{"wd":"bewitch"},{"wd":"captivate"},{"wd":"charm"},{"wd":"enchant"},{"wd":"fascinate"}]],"phrase_list":[[{"wd":"get
+        to"}]],"near_list":[[{"wd":"bore"},{"wd":"jade"},{"wd":"pall"},{"wd":"tire"},{"wd":"weary"}],[{"wd":"underwhelm"}]]}]],[["sense",{"sn":"2","dt":[["text","to
+        be the business or affair of "],["vis",[{"t":"fortunately, hurricane season
+        doesn\u0027t {it}affect{\/it} the West Coast"}]]],"syn_list":[[{"wd":"concern"},{"wd":"involve"},{"wd":"touch"}]],"rel_list":[[{"wd":"appertain
+        (to)"},{"wd":"apply (to)"},{"wd":"bear (on)"},{"wd":"pertain (to)"},{"wd":"refer
+        (to)"},{"wd":"relate (to)"}],[{"wd":"embroil"},{"wd":"ensnare"},{"wd":"entangle"},{"wd":"implicate"}]]}]]]}],"shortdef":["to
+        act upon (a person or a person\u0027s feelings) so as to cause a response","to
+        be the business or affair of"]},{"meta":{"id":"affect:2","uuid":"5989338e-2f0c-4c28-947f-f15f2c018ca9","src":"coll_thes","section":"alpha","target":{"tuuid":"dcac4414-b7b1-45ea-a830-fda82bd8b750","tsrc":"collegiate"},"stems":["affect","affectabilities","affectability","affectable","affected","affecting","affects"],"syns":[["act","assume","bluff","counterfeit","dissemble","fake","feign","pass
+        (for)","pretend","profess","put on","sham","simulate"],["frequent","habituate","hang
+        (at)","haunt","resort (to)","visit"]],"ants":[["avoid","shun"]],"offensive":false},"hom":2,"hwi":{"hw":"affect"},"fl":"verb","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","to
+        present a false appearance of "],["vis",[{"t":"she {it}affected{\/it} complete
+        unawareness that we were talking about her, though she must have overheard"}]]],"syn_list":[[{"wd":"act"},{"wd":"assume"},{"wd":"bluff"},{"wd":"counterfeit"},{"wd":"dissemble"},{"wd":"fake"},{"wd":"feign"},{"wd":"pass
+        (for)"},{"wd":"pretend"},{"wd":"profess"},{"wd":"put on"},{"wd":"sham"},{"wd":"simulate"}]],"rel_list":[[{"wd":"dissimulate"},{"wd":"impersonate"},{"wd":"let
+        on"},{"wd":"masquerade"},{"wd":"play"},{"wd":"playact"},{"wd":"pose"}],[{"wd":"forge"},{"wd":"imitate"}],[{"wd":"camouflage"},{"wd":"conceal"},{"wd":"disguise"},{"wd":"mask"}],[{"wd":"feint"}],[{"wd":"malinger"}]],"phrase_list":[[{"wd":"make
+        believe"}]]}]],[["sense",{"sn":"2","dt":[["text","to go to or spend time in
+        often "],["vis",[{"t":"a power couple known to {it}affect{\/it} all the fancy
+        parties in town"}]]],"syn_list":[[{"wd":"frequent"},{"wd":"habituate"},{"wd":"hang
+        (at)"},{"wd":"haunt"},{"wd":"resort (to)"},{"wd":"visit"}]],"rel_list":[[{"wd":"patronize"}],[{"wd":"attend"},{"wd":"take
+        in"}],[{"wd":"infest"},{"wd":"invade"},{"wd":"overrun"},{"wd":"swarm"}],[{"wd":"call
+        (on or upon)"},{"wd":"drop by"},{"wd":"drop in"},{"wd":"pop (in)"},{"wd":"run
+        (in)"},{"wd":"stop (in or by)"}],[{"wd":"camp (out in)"},{"wd":"sojourn (at)"},{"wd":"stay
+        (at)"},{"wd":"stop (over)"},{"wd":"tarry (in)"}]],"near_list":[[{"wd":"dodge"},{"wd":"duck"},{"wd":"elude"},{"wd":"escape"},{"wd":"eschew"},{"wd":"evade"},{"wd":"shake"}]],"ant_list":[[{"wd":"avoid"},{"wd":"shun"}]]}]]]}],"shortdef":["to
+        present a false appearance of","to go to or spend time in often"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:58 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/collegiate/json/affect?key=<COLLEGIATE_DICTIONARY_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '5298'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"affect:1","uuid":"e493a2b7-ba1f-469a-bb27-5d464108b09f","sort":"011193000","src":"collegiate","section":"alpha","stems":["affect","affectabilities","affectability","affectable","affected","affecting","affects"],"offensive":false},"hom":1,"hwi":{"hw":"af*fect","prs":[{"mw":"\u0259-\u02c8fekt","sound":{"audio":"affect02","ref":"c","stat":"1"}},{"mw":"a-"}]},"fl":"verb","ins":[{"if":"af*fect*ed"},{"if":"af*fect*ing"},{"if":"af*fects"}],"def":[{"vd":"transitive
+        verb","sseq":[[["bs",{"sense":{"dt":[["text","{bc}to produce an effect upon
+        (someone or something):"]]}}],["sense",{"sn":"a","dt":[["text","{bc}to act
+        on and cause a change in (someone or something) "],["vis",[{"t":"Rainfall
+        {wi}affects{\/wi} plant growth."},{"t":"areas to be {wi}affected{\/wi} by
+        highway construction"},{"t":"The protein plays a central role in metabolism
+        \u2026 which in turn {wi}affects{\/wi} the rate of aging.","aq":{"auth":"Stephen
+        S. Hall"}},{"t":"The 1883 eruption of Krakatau in what is now Indonesia {wi}affected{\/wi}
+        global sunsets for years \u2026","aq":{"auth":"Evelyn Browning Garriss"}},{"t":"Before
+        the 1980s it was not at all clear how nicotine {wi}affected{\/wi} the brain.","aq":{"auth":"Cynthia
+        Kuhn et al."}}]]]}],["sense",{"sn":"b","dt":[["text","{bc}to cause illness,
+        symptoms, etc., in (someone or something) "],["vis",[{"t":"a disease that
+        {wi}affects{\/wi} millions of patients each year"},{"t":"\u2026 the syndrome
+        can {wi}affect{\/wi} the pancreas, which produces insulin \u2026","aq":{"auth":"H.
+        Lee Kagan"}}]]]}],["sense",{"sn":"c","dt":[["text","{bc}to produce an emotional
+        response in (someone) "],["vis",[{"t":"an experience that {wi}affected{\/wi}
+        him powerfully"},{"t":"\u2026 she traveled to Cuba and was deeply {wi}affected{\/wi}
+        by what she saw.","aq":{"auth":"Elsa Dixler"}}]]]}],["sense",{"sn":"d","dt":[["text","{bc}to
+        influence (someone or something) "],["vis",[{"t":"trying not to let emotions
+        {wi}affect{\/wi} their decision"}]]]}]]]}],"uros":[{"ure":"af*fect*abil*i*ty","prs":[{"mw":"\u0259-\u02ccfek-t\u0259-\u02c8bi-l\u0259-t\u0113","sound":{"audio":"affect03","ref":"c","stat":"1"}},{"mw":"a-"}],"fl":"noun"},{"ure":"af*fect*able","prs":[{"mw":"\u0259-\u02c8fek-t\u0259-b\u0259l","sound":{"audio":"affect04","ref":"c","stat":"1"}},{"mw":"a-"}],"fl":"adjective"}],"syns":[{"pl":"synonyms","pt":[["text","{sc}affect{\/sc}
+        {sc}influence{\/sc} {sc}touch{\/sc} {sc}impress{\/sc} {sc}strike{\/sc} {sc}sway{\/sc}
+        mean to produce or have an effect upon. {sc}affect{\/sc} implies the action
+        of a stimulus that can produce a response or reaction. "],["vis",[{"t":"the
+        sight {it}affected{\/it} her to tears"}]],["text"," {sc}influence{\/sc} implies
+        a force that brings about a change (as in nature or behavior). "],["vis",[{"t":"our
+        beliefs are {it}influenced{\/it} by our upbringing"}]],["text"," {sc}touch{\/sc}
+        may carry a vivid suggestion of close contact and may connote stirring, arousing,
+        or harming. "],["vis",[{"t":"plants {it}touched{\/it} by frost"},{"t":"his
+        emotions were {it}touched{\/it} by her distress"}]],["text"," {sc}impress{\/sc}
+        stresses the depth and persistence of the effect. "],["vis",[{"t":"only one
+        of the plans {it}impressed{\/it} him"}]],["text"," {sc}strike{\/sc}, similar
+        to but weaker than {it}impress{\/it}, may convey the notion of sudden sharp
+        perception or appreciation. "],["vis",[{"t":"{it}struck{\/it} by the solemnity
+        of the occasion"}]],["text"," {sc}sway{\/sc} implies the acting of influences
+        that are not resisted or are irresistible, with resulting change in character
+        or course of action. "],["vis",[{"t":"politicians who are {it}swayed{\/it}
+        by popular opinion"}]]]}],"quotes":[{"t":"These programs, known as secret
+        warranties or silent recalls, often involve a problem that {qword}affects{\/qword}
+        a vehicle\u0027s safety or performance but that isn\u0027t the cause of a
+        formal Federal recall.","aq":{"source":"{it}Consumer Reports{\/it}","aqdate":"December
+        1993"}},{"t":"The Paris adventures of various Russians, including a romance
+        for Dontsov, {qword}affect{\/qword} both the newly democratized ones and hard-line
+        party members.","aq":{"auth":"Stanley Kauffmann","source":"{it}New Republic{\/it}","aqdate":"27
+        Feb. 1995"}},{"t":"As strange as this sounds, the negative karma probably
+        {qword}affected{\/qword} the actual games, the way a gambler who constantly
+        dwells on his bad luck can derail an entire blackjack table.","aq":{"auth":"Bill
+        Simmons","source":"{it}ESPN{\/it}","aqdate":"24 June 2002"}}],"et":[["text","Middle
+        English {it}affecten,{\/it} borrowed from Latin {it}affectus,{\/it} past participle
+        of {it}afficere{\/it} \u0022to produce an effect on, exert an influence on,\u0022
+        from {it}ad-{\/it} {et_link|ad-|ad-} + {it}facere{\/it} \u0022to do, make,
+        bring about\u0022 {ma}{mat|fact|}{\/ma}"]],"date":"15th century","shortdef":["to
+        produce an effect upon (someone or something):","to act on and cause a change
+        in (someone or something)","to cause illness, symptoms, etc., in (someone
+        or something)"]},{"meta":{"id":"affect:2","uuid":"bf6a5469-7543-4c5b-89c0-94b57680236b","sort":"011193500","src":"collegiate","section":"alpha","stems":["affect","affected","affecting","affects"],"offensive":false},"hom":2,"hwi":{"hw":"af*fect","prs":[{"mw":"\u0259-\u02c8fekt","sound":{"audio":"affect02","ref":"c","stat":"1"}},{"mw":"a-"}]},"fl":"verb","ins":[{"if":"af*fect*ed"},{"if":"af*fect*ing"},{"if":"af*fects"}],"def":[{"vd":"transitive
+        verb","sseq":[[["sense",{"sn":"1","dt":[["text","{bc}to put on a false appearance
+        of (something) {bc}to pretend to feel, have, or do (something) {bc}{sx|feign||}
+        "],["vis",[{"t":"{wi}affect{\/wi} indifference"},{"t":"{wi}affect{\/wi} surprise"},{"t":"He
+        {wi}affected{\/wi} a French accent."},{"t":"\u2026 Fermi often {wi}affected{\/wi}
+        an aversion to abstract mathematics.","aq":{"auth":"Ed Barbeau"}},{"t":"But
+        he {wi}affected{\/wi} not to hear \u2026","aq":{"auth":"Edith Wharton"}}]]]}]],[["sense",{"sn":"2
+        a","dt":[["text","{bc}to often or usually wear or have (something) "],["vis",[{"t":"{wi}affect{\/wi}
+        brightly colored clothing"},{"t":"Chang {wi}affected{\/wi} the beard and long
+        robe of an ancient scholar \u2026","aq":{"auth":"Constance A. Bond"}}]],["text","
+        {bc}to be given to (a preferred style of dress, speech, etc.) "],["vis",[{"t":"{wi}affect{\/wi}
+        a precise way of speaking"}]]]}],["sense",{"sn":"b","dt":[["text","{bc}to
+        make a display of liking or using (something) {bc}to ostentatiously cultivate
+        or claim (a quality, attitude, etc.) "],["vis",[{"t":"{wi}affect{\/wi} a worldly
+        manner"},{"t":"It was the habit of the moment at Oxford to {wi}affect{\/wi}
+        irreverence.","aq":{"auth":"T. B. Costain"}}]]]}]],[["sense",{"sn":"3","sls":["archaic"],"dt":[["text","{bc}to
+        have {d_link|affection|affection} for {bc}to feel love or tender attachment
+        for (someone or something) "],["vis",[{"t":"As for Queen Katharine, he rather
+        respected than {wi}affected{\/wi}, rather honored than loved her.","aq":{"auth":"Thomas
+        Fuller"}},{"t":"I {wi}affected{\/wi} Georgette; she was a sensitive and a
+        loving child: to hold her in my lap, or carry her in my arms, was to me a
+        treat.","aq":{"auth":"Charlotte Bronte"}}]]]}]],[["sense",{"sn":"4","sls":["archaic"],"dt":[["text","{bc}to
+        tend to have (a specified characteristic or quality) "],["vis",[{"t":"\u2026
+        the drops of every fluid {wi}affect{\/wi} a round figure by the mutual attraction
+        of their parts \u2026","aq":{"auth":"Sir Isaac Newton"}}]]]}]],[["sense",{"sn":"5","sls":["archaic"],"dt":[["text","{bc}to
+        often or usually spend time at (a place) or with (a person or group) {bc}{sx|frequent||}
+        "],["vis",[{"t":"\u2026 what birds {wi}affect{\/wi} that particular brake
+        \u2026","aq":{"auth":"Thomas Hardy"}},{"t":"Do not {wi}affect{\/wi} the society
+        of your inferiors in rank, nor court that of the great.","aq":{"auth":"William
+        Hazlitt"}}]]]}]],[["sense",{"sn":"6","sls":["archaic"],"dt":[["text","{bc}to
+        aspire to {bc}to try to attain (something, such as power) "],["vis",[{"t":"\u2026
+        this proud man {wi}affects{\/wi} imperial sway.","aq":{"auth":"John Dryden"}}]]]}]]]}],"syns":[{"pl":"synonyms","pt":[["text","{sc}assume{\/sc}
+        {sc}affect{\/sc} {sc}pretend{\/sc} {sc}simulate{\/sc} {sc}feign{\/sc} {sc}counterfeit{\/sc}
+        {sc}sham{\/sc} mean to put on a false or deceptive appearance. {sc}assume{\/sc}
+        often implies a justifiable motive rather than an intent to deceive. "],["vis",[{"t":"{it}assumed{\/it}
+        an air of cheerfulness around the patients"}]],["text"," {sc}affect{\/sc}
+        implies making a false show of possessing, using, or feeling. "],["vis",[{"t":"{it}affected{\/it}
+        an interest in art"}]],["text"," {sc}pretend{\/sc} implies an overt and sustained
+        false appearance. "],["vis",[{"t":"{it}pretended{\/it} that nothing had happened"}]],["text","
+        {sc}simulate{\/sc} suggests a close imitation of the appearance of something.
+        "],["vis",[{"t":"cosmetics that {it}simulate{\/it} a suntan"}]],["text","
+        {sc}feign{\/sc} implies more artful invention than {sc}pretend{\/sc}, less
+        specific mimicry than {sc}simulate{\/sc}. "],["vis",[{"t":"{it}feigned{\/it}
+        sickness"}]],["text"," {sc}counterfeit{\/sc} implies achieving the highest
+        degree of verisimilitude of any of these words. "],["vis",[{"t":"an actor
+        {it}counterfeiting{\/it} drunkenness"}]],["text"," {sc}sham{\/sc} implies
+        an obvious falseness that fools only the gullible. "],["vis",[{"t":"{it}shammed{\/it}
+        a most unconvincing limp"}]]]}],"quotes":[{"t":"That is all I have, I said,
+        {qword}affecting{\/qword} a pathos in my voice.","aq":{"auth":"Flann O\u0027Brian","source":"{it}At
+        Swim-Two-Birds{\/it}","aqdate":"1939"}},{"t":"She pauses and {qword}affects{\/qword}
+        the more dramatic tone of a veteran actress.","aq":{"auth":"Chris Mundy","source":"{it}Rolling
+        Stone{\/it}","aqdate":"15 June 1995"}},{"t":"She doesn\u0027t put herself
+        down, but she does {qword}affect{\/qword} a languid Valley Girl drawl to offset
+        the sharpness of her observations \u2026","aq":{"auth":"Ken Tucker","source":"{it}Entertainment
+        Weekly{\/it}","aqdate":"7 Oct. 1994"}}],"et":[["text","Middle English {it}affecten{\/it}
+        \u0022to desire,\u0022 borrowed from Anglo-French {it}affeter, affecter{\/it}
+        \u0022to change, seek after,\u0022 borrowed from Latin {it}affect\u0101re{\/it}
+        \u0022to try to accomplish, strive after, pretend to have,\u0022 frequentative
+        derivative of {it}afficere{\/it} \u0022to produce an effect on, exert an influence
+        on\u0022 {ma}{mat|affect:1|}{\/ma}"]],"date":"15th century{ds||6||}","shortdef":["to
+        put on a false appearance of (something) : to pretend to feel, have, or do
+        (something) : feign","to often or usually wear or have (something) : to be
+        given to (a preferred style of dress, speech, etc.)","to make a display of
+        liking or using (something) : to ostentatiously cultivate or claim (a quality,
+        attitude, etc.)"]},{"meta":{"id":"affect:3","uuid":"dcac4414-b7b1-45ea-a830-fda82bd8b750","sort":"011194000","src":"collegiate","section":"alpha","stems":["affect","affects"],"offensive":false},"hom":3,"hwi":{"hw":"af*fect","prs":[{"mw":"\u02c8a-\u02ccfekt","sound":{"audio":"affect01","ref":"c","stat":"1"}}]},"fl":"noun","ins":[{"il":"plural","if":"af*fects"}],"def":[{"sseq":[[["sen",{"sn":"1","et":[["text","German
+        {it}Affekt,{\/it} borrowed from Latin {it}affectus{\/it}"]],"sls":["psychology"]}],["sense",{"sn":"a","dt":[["text","{bc}a
+        set of observable manifestations of an experienced emotion {bc}the facial
+        expressions, gestures, postures, vocal intonations, etc., that typically accompany
+        an emotion "],["vis",[{"t":"Evidence from several clinical groups indicates
+        that reduced accuracy in decoding facial {wi}affect{\/wi} is associated with
+        impaired social competence.","aq":{"auth":"Suzane Vassallo et al."}},{"t":"\u2026
+        patients \u2026 showed perfectly normal reactions and {wi}affects{\/wi} \u2026","aq":{"auth":"Oliver
+        Sacks"}},{"t":"Other victims of schizophrenia sometimes lapse into flat {wi}affect{\/wi},
+        a zombielike state of apparent apathy.","aq":{"auth":"David G. Myers"}}]]]}],["sense",{"sn":"b","dt":[["text","{bc}the
+        conscious emotion that occurs in reaction to a thought or experience "],["vis",[{"t":"Positive
+        {wi}affect{\/wi} encompasses all good emotions, such as joy, bliss, love,
+        and contentment.","aq":{"auth":"Roy F. Baumeister and Brad J. Bushman"}},{"t":"Killing
+        and meaningless mass murder without {wi}affect{\/wi}, as the psychologists
+        say, \u2026 have become too frequent occurrences in contemporary life.","aq":{"auth":"Barbara
+        W. Tuchman"}}]]]}]],[["sense",{"sn":"2","sls":["obsolete"],"dt":[["text","{bc}{sx|feeling||},
+        {sx|affection||} "],["vis",[{"t":"For every man with his {wi}affects{\/wi}
+        is born, \/ Not by might mast\u0027red, but by special grace.","aq":{"auth":"William
+        Shakespeare"}}]]]}]]]}],"usages":[{"pl":"{parahw}effect{\/parahw} vs. {parahw}affect{\/parahw}","pt":[["text","{it}Effect{\/it}
+        and {it}affect{\/it} are often confused because of their similar spelling
+        and pronunciation. The verb {i_link|affect:2|affect:2} usually has to do with
+        pretense. "],["vis",[{"t":"she {it}affected{\/it} a cheery disposition despite
+        feeling down"}]],["text"," The more common verb {i_link|affect:1|affect:1}
+        denotes having an effect or influence. "],["vis",[{"t":"the weather {it}affected{\/it}
+        everyone\u0027s mood"}]],["text"," The verb {i_link|effect|effect:2} goes
+        beyond mere influence; it refers to actual achievement of a final result.
+        "],["vis",[{"t":"the new administration hopes to {it}effect{\/it} a peace
+        settlement"}]],["text"," The uncommon noun {it}affect{\/it}, which has a meaning
+        relating to psychology, is also sometimes mistakenly used for the very common
+        {it}effect.{\/it} In ordinary use, the noun you will want is {it}effect{\/it}.
+        "],["vis",[{"t":"waiting for the new law to take {it}effect{\/it}"},{"t":"the
+        weather had an {it}effect{\/it} on everyone\u0027s mood"}]]]}],"quotes":[{"t":"The
+        way people respond to this is sometimes called \u0022depressed {qword}affect{\/qword}\u0022\u2014a
+        sort of mental shifting into neutral that psychologists say also happens to
+        prisoners of war, submarine crews, and other people in confined situations
+        with little stimulus.","aq":{"auth":"Susan West","source":"{it}Science 84{\/it}","aqdate":"January\/February
+        1984"}},{"t":"Many of these young killers display an absence of what psychiatrists
+        call {qword}affect{\/qword}. They show no discernible emotional reaction to
+        what they have done.","aq":{"auth":"Richard Stengel","source":"{it}Time{\/it}","aqdate":"16
+        Sept. 1985"}},{"t":"There\u0027s a good plot and good writing here, but Mallory\u0027s
+        gender neutrality, conspicuous in her lack of {qword}affect{\/qword}, makes
+        her seem like a comic-book character.","aq":{"auth":"Cynthia Crossen","source":"{it}Wall
+        Street Journal{\/it}","aqdate":"5 Oct. 1994"}}],"et":[["text","Middle English,
+        \u0022capacity for emotion, emotion, desire, will,\u0022 borrowed from Latin
+        {it}affectus{\/it} \u0022mental state, mood, feeling, affection,\u0022 from
+        {it}afficere{\/it} \u0022to produce an effect on, exert an influence on\u0022
+        + {it}-tus,{\/it} suffix of verbal action {ma}{mat|affect:1|}{\/ma}"]],"date":"14th
+        century{ds||2||}","shortdef":["a set of observable manifestations of an experienced
+        emotion : the facial expressions, gestures, postures, vocal intonations, etc.,
+        that typically accompany an emotion","the conscious emotion that occurs in
+        reaction to a thought or experience","feeling, affection"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:58 GMT
+recorded_with: VCR 6.1.0

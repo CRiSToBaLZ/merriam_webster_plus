@@ -1,0 +1,144 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/salmon?key=<COLLEGIATE_THESAURUS_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '113'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '["salon","saloon","saloons","daemon","daimon","gammon","sallow","salons","salvo","salvor","salvos","sermon","summon","psalmody","salesman","salesmen","almoner","calming","salamis","salient"]'
+  recorded_at: Tue, 21 Jun 2022 23:24:57 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/collegiate/json/salmon?key=<COLLEGIATE_DICTIONARY_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Jun 2022 23:24:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1941'
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=86400, public
+      Pragma:
+      - cache
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"meta":{"id":"salmon","uuid":"cb7ebb03-74af-4bd2-8191-5d88cee9dcbf","sort":"190315000","src":"collegiate","section":"alpha","stems":["Atlantic
+        salmon","salmon","salmons"],"offensive":false},"hwi":{"hw":"salm*on","prs":[{"mw":"\u02c8sa-m\u0259n","sound":{"audio":"salmon01","ref":"c","stat":"1"}}]},"fl":"noun","ins":[{"il":"plural","if":"salmon"},{"il":"also","if":"salm*ons"}],"def":[{"sseq":[[["sense",{"sn":"1
+        a","dt":[["text","{bc}a large anadromous {a_link|salmonid} fish ({it}Salmo
+        salar{\/it}) of the North Atlantic noted as a game and food fish "],["ca",{"intro":"called
+        also","cats":[{"cat":"Atlantic salmon"}]}]]}],["sense",{"sn":"b","dt":[["text","{bc}any
+        of various anadromous salmonid fishes other than the salmon"]],"sdsense":{"sd":"especially","dt":[["text","{bc}{sx|pacific
+        salmon||}"]]}}],["sense",{"sn":"c","dt":[["text","{bc}a fish (such as a barramundi)
+        resembling a salmon"]]}]],[["sense",{"sn":"2","dt":[["text","{bc}the variable
+        color of salmon\u0027s flesh averaging a strong yellowish pink"]]}]]]}],"et":[["text","Middle
+        English {it}samon{\/it}, from Anglo-French {it}salmon, samon{\/it}, from Latin
+        {it}salmon-, salmo{\/it}"]],"date":"13th century{ds||1|a|}","shortdef":["a
+        large anadromous salmonid fish (Salmo salar) of the North Atlantic noted as
+        a game and food fish \u2014called also Atlantic salmon","any of various anadromous
+        salmonid fishes other than the salmon; especially : pacific salmon","a fish
+        (such as a barramundi) resembling a salmon"]},{"meta":{"id":"Salmon:g","uuid":"a5f856eb-b391-47c0-a661-6436e1d1581a","sort":"282519000","src":"collegiate","section":"geog","stems":["Salmon"],"offensive":false},"hwi":{"hw":"Salm*on","prs":[{"mw":"\u02c8sa-m\u0259n","sound":{"audio":"ggsalm01","ref":"c","stat":"1"}}]},"fl":"geographical
+        name","def":[{"sseq":[[["sense",{"dt":[["text","river 420 miles (676 kilometers)
+        long in central Idaho flowing into the Snake River"]]}]]]}],"shortdef":["river
+        420 miles (676 kilometers) long in central Idaho flowing into the Snake River"]},{"meta":{"id":"salmon
+        pink","uuid":"0cd33845-1c8d-446b-8908-a83389918e7e","sort":"190321000","src":"collegiate","section":"alpha","stems":["salmon
+        pink","salmon pinks"],"offensive":false},"hwi":{"hw":"salmon pink"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a
+        strong yellowish pink"]]}]]]}],"date":"1882","shortdef":["a strong yellowish
+        pink"]},{"meta":{"id":"Salmon River Mountains:g","uuid":"2f208a45-3e68-48b1-b0b7-53cc0b7b483a","sort":"282520000","src":"collegiate","section":"geog","stems":["Salmon
+        River Mountains"],"offensive":false},"hwi":{"hw":"Salmon River Mountains"},"fl":"geographical
+        name","def":[{"sseq":[[["sense",{"dt":[["text","mountains in central Idaho
+        with many peaks over 9000 feet (2743 meters) high"]]}]]]}],"shortdef":["mountains
+        in central Idaho with many peaks over 9000 feet (2743 meters) high"]},{"meta":{"id":"Atlantic
+        salmon","uuid":"12ee4593-c04b-4ecc-9a25-806df767ad7e","sort":"014523000","src":"collegiate","section":"alpha","stems":["Atlantic
+        salmon","Atlantic salmons"],"offensive":false},"hwi":{"hw":"Atlantic salmon"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}{sx|salmon||1a}"]]}]]]}],"date":"1813","shortdef":["salmon"]},{"meta":{"id":"black
+        salmon","uuid":"0a75d3f5-b816-430a-ab01-da53aa2fb41a","sort":"020261750","src":"collegiate","section":"alpha","stems":["black
+        salmon","black salmons"],"offensive":false},"hwi":{"hw":"black salmon"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}{sx|chinook
+        salmon||}"]]}]]]}],"date":"1873","shortdef":["chinook salmon"]},{"meta":{"id":"Chinook
+        salmon","uuid":"1fa80af4-81c1-4a08-9f0b-578454e0eabe","sort":"032660000","src":"collegiate","section":"alpha","stems":["Chinook","Chinook
+        salmon","Chinooks","chinook","chinook jargon","chinook salmon","chinook salmons","chinookan","chinooks","king
+        salmon"],"offensive":false},"hwi":{"hw":"Chinook salmon"},"vrs":[{"vl":"or
+        less commonly","va":"chinook salmon"},{"vl":"or","va":"Chinook"},{"vl":"or","va":"chinook"}],"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a
+        large, usually red-fleshed, commercially important salmon ({it}Oncorhynchus
+        tshawytscha{\/it}) of the northern Pacific Ocean that is typically bluish-green
+        above with silvery sides, has a dark mouth with black gums, and attains an
+        average weight of about 30 to 40 pounds (13.5 to 18 kilograms) but may sometimes
+        exceed 120 pounds (54 kilograms) "],["ca",{"intro":"called also","cats":[{"cat":"black
+        salmon"},{"cat":"king salmon"}]}]]}]]]}],"art":{"artid":"chin_sa","capt":"Chinook
+        salmon"},"date":"1851","shortdef":["a large, usually red-fleshed, commercially
+        important salmon (Oncorhynchus tshawytscha) of the northern Pacific Ocean
+        that is typically bluish-green above with silvery sides, has a dark mouth
+        with black gums, and attains an average weight of about 30 to 40 pounds (13.5
+        to 18 kilograms) but may sometimes exceed 120 pounds (54 kilograms) \u2014called
+        also black salmon, king salmon"]},{"meta":{"id":"chum salmon","uuid":"a0d372d5-dd32-419f-b79f-5160e5f296c0","sort":"033065000","src":"collegiate","section":"alpha","stems":["chum","chum
+        salmon","chum salmons","chums","chumship","chumships"],"offensive":false},"hwi":{"hw":"chum
+        salmon"},"vrs":[{"vl":"or less commonly","va":"chum"}],"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}a
+        metallic bluish green salmon ({it}Oncorhynchus keta{\/it}) of the northern
+        Pacific Ocean and Arctic Ocean that may reach a length of about 3.5 feet (1
+        meter) but is typically smaller "],["snote",[["t","Upon entering fresh water
+        to spawn, the male chum salmon develops large, sharp teeth and becomes dark
+        green to brown with reddish-purple vertical stripes."]]]]}]]]}],"et":[["text","{et_link|chum:5|chum:5}"]],"date":"1907","shortdef":["a
+        metallic bluish green salmon (Oncorhynchus keta) of the northern Pacific Ocean
+        and Arctic Ocean that may reach a length of about 3.5 feet (1 meter) but is
+        typically smaller"]},{"meta":{"id":"jack salmon","uuid":"d3d51ea4-f587-418d-a756-feb55f6795dc","sort":"100005100","src":"collegiate","section":"alpha","stems":["jack
+        salmon","jack salmons"],"offensive":false},"hwi":{"hw":"jack salmon"},"fl":"noun","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","{bc}{sx|walleye||3}"]]}]],[["sense",{"sn":"2
+        a","dt":[["text","{bc}{sx|grilse||}"]]}],["sense",{"sn":"b","dt":[["text","{bc}{sx|coho||}"]]}]]]}],"date":"1850{ds||1||}","shortdef":["walleye","grilse","coho"]},{"meta":{"id":"king
+        salmon","uuid":"9c8b42d9-a92d-4900-ae11-25f5bd6898cd","sort":"110049200","src":"collegiate","section":"alpha","stems":["king
+        salmon","king salmons"],"offensive":false},"hwi":{"hw":"king salmon"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","{bc}{sx|chinook
+        salmon||}"]]}]]]}],"date":"1871","shortdef":["chinook salmon"]}]'
+  recorded_at: Tue, 21 Jun 2022 23:24:57 GMT
+recorded_with: VCR 6.1.0
