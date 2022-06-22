@@ -15,7 +15,7 @@ E.g. running 800 words from an official spelling bee list shows the following pr
 
 ## Usage
 
-Set `ENV["COLLEGIATE_DICTIONARY_API_KEY"]` and `ENV["COLLEGIATE_THESAURUS_API_KEY"]` with eponymous keys from https://dictionaryapi.com/register/index.
+Set environment variables for `COLLEGIATE_DICTIONARY_API_KEY` and `COLLEGIATE_THESAURUS_API_KEY` with eponymous keys from https://dictionaryapi.com/register/index.
 
 ```ruby
 >> require "merriam_webster_plus"

@@ -12,7 +12,7 @@ end
 require "rubocop/rake_task"
 
 RuboCop::RakeTask.new(:rubocop) do |t|
-  t.options = ['--fail-level', 'E']
+  t.options = ["--fail-level", "E"]
 end
 
 task default: %i[test rubocop]

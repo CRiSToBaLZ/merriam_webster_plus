@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "merriam_webster_plus/version"
@@ -25,19 +23,13 @@ Gem::Specification.new do |spec|
   spec.executables   = ["mwp"]
   spec.require_paths = ["lib"]
 
-  # Uncomment to register a new dependency of your gem
-  # spec.add_dependency "example-gem", "~> 1.0"
-
   spec.add_dependency "bundler", "~> 2.2"
   spec.add_dependency "httparty"
   spec.add_dependency "json"
-  spec.add_dependency "minitest" # , '~> 5.15'
+  spec.add_dependency "minitest"
   spec.add_dependency "minitest-stub-const"
-  spec.add_dependency "rake" # ,  '>= 12.3.3'
-  spec.add_dependency "rubocop" # , '~> 1.28', '>= 1.28.2'
+  spec.add_dependency "rake"
+  spec.add_dependency "rubocop"
   spec.add_dependency "vcr"
   spec.add_dependency "webmock"
-
-  # For more information and examples about making a new gem, checkout our
-  # guide at: https://bundler.io/guides/creating_gem.html
 end
